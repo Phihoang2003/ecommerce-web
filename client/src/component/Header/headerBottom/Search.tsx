@@ -15,6 +15,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Overlay } from '../..';
 import { useEffect, useRef, useState } from 'react';
 import ListCategories from './ListCategories';
+import { useTranslation } from 'react-i18next';
 
 interface search {
     text: string;
@@ -26,7 +27,7 @@ interface resultSuggest {
     slug: string;
 }
 interface ProductSuggest extends resultSuggest {
-    image_url: string ;
+    image_url: string;
     slug: string;
 }
 const Search: React.FC = () => {
@@ -39,6 +40,7 @@ const Search: React.FC = () => {
     const valueDebounce = useDebounce(searchValue, 200);
     const inputRef = useRef<HTMLInputElement>(null);
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     useEffect(() => {
         const fetchHistory = async () => {
@@ -122,7 +124,7 @@ const Search: React.FC = () => {
             <div>
                 {searchHistories?.length > 0 && (
                     <div className="flex flex-col gap-3 ">
-                        <h1 className="text-sm font-medium px-[20px]">Tìm kiếm gần đây </h1>
+                        <h1 className="text-sm font-medium px-[20px]">{t('search.searchRecent')} </h1>
                         <ul className="flex flex-col ">
                             {searchHistories?.map((s, i) => {
                                 return (
@@ -168,11 +170,11 @@ const Search: React.FC = () => {
                                 >
                                     {limitHistory === 4 ? (
                                         <span>
-                                            Xem thêm <KeyboardArrowDownIcon fontSize="small" />
+                                            {t('search.viewMore')} <KeyboardArrowDownIcon fontSize="small" />
                                         </span>
                                     ) : (
                                         <span>
-                                            Thu gọn <KeyboardControlKeyIcon fontSize="small" />
+                                            {t('search.collapse')} <KeyboardControlKeyIcon fontSize="small" />
                                         </span>
                                     )}
                                 </div>
@@ -181,7 +183,7 @@ const Search: React.FC = () => {
                     </div>
                 )}
                 <div className="flex flex-col gap-3 ">
-                    <h1 className="font-medium text-base px-[20px]">Sản phẩm nổi bật</h1>
+                    <h1 className="font-medium text-base px-[20px]">{t('product.featuredProducts')}</h1>
                     <ul className="grid mobile:grid-cols-2 grid-cols-4 gap-1">
                         {productSuggest?.map((s) => {
                             return (
@@ -222,7 +224,7 @@ const Search: React.FC = () => {
                             value={searchValue}
                             type="text"
                             className="outline-none border-none w-full px-3 text-[14px] text-black"
-                            placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..."
+                            placeholder={t('search.searchProduct')}
                         />
                         {searchValue !== '' && (
                             <span onClick={() => setSearchValue('')} className="flex items-center">
@@ -239,7 +241,7 @@ const Search: React.FC = () => {
                         className="tablet:hidden outline-none bg-[rgb(9,115,69)] w-[150px] h-[40px] text-white rounded-r-[2px]"
                         onClick={handleSummit}
                     >
-                        <SearchIcon /> <span> Tìm kiếm </span>
+                        <SearchIcon /> <span> {t('search.search')}</span>
                     </button>
                 </div>
                 <ListCategories />

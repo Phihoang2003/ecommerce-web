@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { useTranslation } from 'react-i18next';
 import { showNotification } from '../..';
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../../redux/hooks';
@@ -11,14 +11,16 @@ import { setOpenFeatureAuth } from '../../../redux/features/action/actionSlice';
 import { noUser } from '../../../assets';
 import { setAddProductInCartFromApi, setSelectedProductsAll } from '../../../redux/features/order/orderSlice';
 import { formatUserName } from '../../../utils/formatUserName';
+
 const User: React.FC = () => {
+    const { t } = useTranslation();
     const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
     const { isLoginSuccess } = useAppSelector((state) => state.auth);
     const dispatch = useAppDispatch();
     const { avatar_url, firstName, lastName, email } = useAppSelector((state) => state.user);
 
     const handleLogOut = async () => {
-        if (confirm('Bạn có muốn đăng xuất')) {
+        if (confirm(t('common.logout') + '?')) {
             const res = await apiLogout();
             if (!res.success) return;
             localStorage.clear();
@@ -28,7 +30,7 @@ const User: React.FC = () => {
             dispatch(setSelectedProductsAll([]));
             dispatch(setAddProductInCartFromApi([]));
             window.location.reload();
-            showNotification('Đăng xuất thành công', true);
+            showNotification(t('auth.signInNow') + ' ' + t('common.success'), true);
         }
     };
     return (
@@ -53,16 +55,16 @@ const User: React.FC = () => {
                         after:top-[-20px]  after:right-5 after:absolute"
                         >
                             <Link to={`${path.PAGE_USER}/profile`} className="menu-user">
-                                Thông tin tài khoản
+                                {t('user.accountSettings')}
                             </Link>
                             <Link to={`${path.PAGE_USER}/sell`} className="menu-user">
-                                Quản lý đơn hàng
+                                {t('user.orderManagement')}
                             </Link>
                             <Link to={`${path.PAGE_USER}/purchase`} className="menu-user">
-                                Đơn mua
+                                {t('user.orders')}
                             </Link>
                             <span onClick={handleLogOut} className="menu-user">
-                                Đăng xuất
+                                {t('common.logout')}
                             </span>
                         </div>
                     )}
@@ -75,7 +77,7 @@ const User: React.FC = () => {
                     >
                         <img className="laptop:hidden w-5 h-5 rounded-full" src={noUser} />
                         <div className="tablet:hidden text-sm font-normal text-white">
-                            <span>Đăng nhập</span> / <span>Đăng ký</span>
+                            <span>{t('common.login')}</span> / <span>{t('common.register')}</span>
                         </div>
                     </div>
                 </div>

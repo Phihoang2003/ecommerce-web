@@ -8,8 +8,10 @@ import { setAllOrdersBought, setLoadDataOrder } from '../../../../redux/features
 import RenderUi from './RenderUI';
 import { IOrderItem } from '../../../../interfaces/interfaces';
 import { path } from '../../../../utils/const';
+import { useTranslation } from 'react-i18next';
 
 const PurchaseManage: React.FC = () => {
+    const { t } = useTranslation();
     const {
         allOrdersBought,
         allOrdersBought_isConfirm,
@@ -21,32 +23,32 @@ const PurchaseManage: React.FC = () => {
     const PURCHASE_TAB = [
         {
             tab: 1,
-            title: 'Tất cả',
+            title: t('order.all'),
             quantity: allOrdersBought?.length,
         },
         {
             tab: 2,
-            title: 'Chờ xác nhận',
+            title: t('order.pending'),
             quantity: allOrdersBought_isConfirm?.length,
         },
         {
             tab: 3,
-            title: 'Vận Chuyển',
+            title: t('order.shipping'),
             quantity: allOrdersBought_delivery?.length,
         },
         {
             tab: 4,
-            title: 'Đang giao',
+            title: t('order.shipping'),
             quantity: allOrdersBought_isDelivering?.length,
         },
         {
             tab: 5,
-            title: 'Hoàn thành',
+            title: t('order.completed'),
             quantity: allOrdersBought_isSuccess?.length,
         },
         {
             tab: 6,
-            title: 'Đã hủy',
+            title: t('order.cancelled'),
             quantity: allOrdersBought_isCanceled?.length,
         },
     ];

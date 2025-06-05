@@ -1,0 +1,294 @@
+[{
+  "_id": {
+    "$oid": "64c727d44dfc5b7fb5f3dda3"
+  },
+  "text": "k",
+  "user": "64611f6f10487bbfc0707e82",
+  "createdAt": {
+    "$date": "2023-07-31T03:17:40.035Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T03:17:40.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ca70d57952e4efc64ed250"
+  },
+  "text": "l",
+  "user": "646b9d7832f3b04864b3de27",
+  "createdAt": {
+    "$date": "2023-08-02T15:05:57.006Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T15:05:57.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d59235b3ba83877aba644e"
+  },
+  "text": "Lon Hạt sen sấy giòn tự",
+  "user": "6461e3908d5ce7e7c19bfcd4",
+  "createdAt": {
+    "$date": "2023-08-11T01:43:17.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T01:43:17.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da26069f7d4d74fb3aaba9"
+  },
+  "text": "ww",
+  "user": "6461e3908d5ce7e7c19bfcd4",
+  "createdAt": {
+    "$date": "2023-08-14T13:03:02.470Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T13:03:02.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da26099f7d4d74fb3aabb0"
+  },
+  "text": "eweeewe",
+  "user": "6461e3908d5ce7e7c19bfcd4",
+  "createdAt": {
+    "$date": "2023-08-14T13:03:05.109Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T13:03:05.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da26119f7d4d74fb3aabba"
+  },
+  "text": "wewwetrrtyui",
+  "user": "6461e3908d5ce7e7c19bfcd4",
+  "createdAt": {
+    "$date": "2023-08-14T13:03:13.408Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T13:03:13.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da2d3d9f7d4d74fb3b2112"
+  },
+  "text": "Lon Hạt sen sấy giòn tự nhiên Hột Điều Nam Việt 180g ",
+  "user": "6461e3908d5ce7e7c19bfcd4",
+  "createdAt": {
+    "$date": "2023-08-14T13:33:49.464Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T13:33:49.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7a085e5efe31f54e951f9"
+  },
+  "text": " ",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-24T18:25:09.028Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T18:25:09.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7a093e5efe31f54e955be"
+  },
+  "text": "*",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-24T18:25:23.874Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T18:25:23.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7a0b2e5efe31f54e955cf"
+  },
+  "text": "%",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-24T18:25:54.258Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T18:25:54.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e88be4059fc0c961a2648b"
+  },
+  "text": "a",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-25T11:09:24.900Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T11:09:24.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e88c1d059fc0c961a264a6"
+  },
+  "text": ".",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-25T11:10:21.668Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T11:10:21.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e88c23059fc0c961a2686b"
+  },
+  "text": "`",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-25T11:10:27.951Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T11:10:27.951Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e88c27059fc0c961a26876"
+  },
+  "text": "?",
+  "user": "64e7a02ee5efe31f54e94dbc",
+  "createdAt": {
+    "$date": "2023-08-25T11:10:31.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T11:10:31.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ed9d49f90f5151e4446aa9"
+  },
+  "text": "gao",
+  "user": "64ed9adef90f5151e44469ad",
+  "createdAt": {
+    "$date": "2023-08-29T07:24:57.192Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-29T07:24:57.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ed9d69f90f5151e4446af1"
+  },
+  "text": "hạt",
+  "user": "64ed9adef90f5151e44469ad",
+  "createdAt": {
+    "$date": "2023-08-29T07:25:29.974Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-29T07:25:29.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fa5e6ae3ae500418825325"
+  },
+  "text": "jhhj",
+  "user": "6450d1fb1d1397a25959dc17",
+  "createdAt": {
+    "$date": "2024-03-20T03:56:26.085Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T03:56:26.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fa5e6ee3ae50041882532f"
+  },
+  "text": "ô iuu",
+  "user": "6450d1fb1d1397a25959dc17",
+  "createdAt": {
+    "$date": "2024-03-20T03:56:30.126Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T03:56:30.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666806efcb5f3e33f5be2859"
+  },
+  "text": "Trái Cây Sấy ( Combo 2 kí Thập Cẩm Sấy hàng vụn loại ngon đủ 10 vị )",
+  "user": "64dedbb8abc044cb9ceffa28",
+  "createdAt": {
+    "$date": "2024-06-11T08:12:31.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T08:12:31.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666806f9cb5f3e33f5be2864"
+  },
+  "text": "Trái Cây Sấy ( Combo 2 kí Thập Cẩm Sấy hàng vụn loại ngon đủ 10 vị",
+  "user": "64dedbb8abc044cb9ceffa28",
+  "createdAt": {
+    "$date": "2024-06-11T08:12:41.473Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T08:12:41.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6668070acb5f3e33f5be2871"
+  },
+  "text": "Trái Cây Sấy",
+  "user": "64dedbb8abc044cb9ceffa28",
+  "createdAt": {
+    "$date": "2024-06-11T08:12:58.138Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T08:12:58.138Z"
+  },
+  "__v": 0
+}]

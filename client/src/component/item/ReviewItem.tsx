@@ -15,7 +15,7 @@ import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import { apiLikeProduct, apiUnlikeComment } from '../../services/apiReviews';
 import { setOpenFeatureAuth } from '../../redux/features/action/actionSlice';
 import { ButtonOutline } from '..';
-import { RATING_REVIEW } from '../../utils/const';
+import { RATING_REVIEW, useAppTranslation } from '../../utils/const';
 import { formatUserName } from '../../utils/formatUserName';
 import { apiCreateNotification } from '../../services/apiNotification';
 import { useLocation } from 'react-router-dom';
@@ -38,7 +38,9 @@ const ReviewItem: React.FC<ReviewsProps> = ({ review, isBought, handleDelete, ha
     const { isAdmin } = useAppSelector((state) => state.user);
     const { socketRef } = useAppSelector((state) => state.action);
     const location = useLocation();
-    console.log( location.pathname + location.search)
+    const { t } = useAppTranslation();
+
+    console.log(location.pathname + location.search);
     const handleLike = async () => {
         if (!isLoginSuccess) {
             dispatch(setOpenFeatureAuth(true));
@@ -49,8 +51,8 @@ const ReviewItem: React.FC<ReviewsProps> = ({ review, isBought, handleDelete, ha
             await apiUnlikeComment(_id);
         } else {
             setLikesReviews((e) => [...e, currentUser._id]);
-            
-            if(user._id!=currentUser._id){
+
+            if (user._id != currentUser._id) {
                 const notification: INotification = {
                     image_url: currentUser.avatar_url,
                     shopId: user._id,
@@ -99,7 +101,7 @@ const ReviewItem: React.FC<ReviewsProps> = ({ review, isBought, handleDelete, ha
                             <div className="flex w-full h-full  gap-2 items-center">
                                 <div className="flex ">{formatStar(rating, '20px')}</div>
                                 <span className="text-sm font-semibold">
-                                    {RATING_REVIEW?.find((r) => r.start === rating)?.text}
+                                    {t(RATING_REVIEW?.find((r) => r.start === rating)?.text_key)}
                                 </span>
                             </div>
                         )}
@@ -175,11 +177,11 @@ const ReviewItem: React.FC<ReviewsProps> = ({ review, isBought, handleDelete, ha
                             <div className="flex gap-6 text-primary ">
                                 {currentUser._id === user?._id && (
                                     <button className="text-sm hover:opacity-80" onClick={handleEdit}>
-                                        Chỉnh sửa
+                                        {t('common.edit')}
                                     </button>
                                 )}
                                 <button className="text-sm hover:opacity-80" onClick={handleDelete}>
-                                    Xóa
+                                    {t('common.delete')}
                                 </button>
                             </div>
                         )}

@@ -4,12 +4,14 @@ import { showNotification } from '../../../../component';
 import ReactLoading from 'react-loading';
 import { noUser } from '../../../../assets';
 import { UserProfile } from '../../../../interfaces/interfaces';
+import { useTranslation } from 'react-i18next';
 interface AvatarProps {
     setPayload: React.Dispatch<React.SetStateAction<UserProfile>>;
     payload: UserProfile;
 }
 const Avatar: React.FC<AvatarProps> = ({ setPayload, payload }) => {
     const [isLoadingImg, setIsLoadingImg] = useState<boolean>(false);
+    const { t } = useTranslation();
     const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const files = e.target.files;
         setIsLoadingImg(true);
@@ -38,7 +40,7 @@ const Avatar: React.FC<AvatarProps> = ({ setPayload, payload }) => {
                 )}
             </div>
             <label className=" border-[1px] border-solid border-separate py-2 px-4">
-                Chọn ảnh
+                {t('user.selectImage')}
                 <input type="file" readOnly hidden onChange={handleImageUpload} className="none" />
             </label>
         </div>

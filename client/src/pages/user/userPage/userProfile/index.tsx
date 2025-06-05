@@ -10,11 +10,13 @@ import { setDetailUser } from '../../../../redux/features/user/userSlice';
 import { FormEditAddress, InputForm, InputReadOnly, showNotification } from '../../../../component';
 import Avatar from './Avatar';
 import { path } from '../../../../utils/const';
+import { useTranslation } from 'react-i18next';
 
 const UserProfile: React.FC = () => {
     const currentUser = useAppSelector((state) => state.user);
     const [isOpenEditAddress, setIsOpenEditAddress] = useState<boolean>(false);
     const [payload, setPayload] = useState<IUserProfile>({} as IUserProfile);
+    const { t } = useTranslation();
     const dispatch = useAppDispatch();
     const { mobile_ui } = useAppSelector((state) => state.action);
     useEffect(() => {
@@ -35,12 +37,12 @@ const UserProfile: React.FC = () => {
     };
     return (
         <div className="tablet:fixed tablet:top-0 tablet:right-0 tablet:z-[1000] w-full h-full bg-white overflow-hidden p-4 laptop:rounded-lg  tablet:overflow-y-scroll ">
-            <Link to={`${path.PAGE_USER}`} className='text-secondary laptop:hidden '>
+            <Link to={`${path.PAGE_USER}`} className="text-secondary laptop:hidden ">
                 <ChevronLeftIcon fontSize="large" />
             </Link>
             <div className="w-full mb-4">
-                <h1 className="text-xl ">Hồ Sơ Của Tôi</h1>
-                <span className="text-sm text-secondary ">Quản lý thông tin hồ sơ để bảo mật tài khoản</span>
+                <h1 className="text-xl ">{t('user.myProfile')}</h1>
+                <span className="text-sm text-secondary ">{t('user.manageProfile')}</span>
             </div>
             <div className="flex tablet:flex-col tablet:gap-4 w-full py-10 border-solid border-t-[1px] border-slate-200">
                 {mobile_ui && <Avatar setPayload={setPayload} payload={payload} />}
@@ -71,7 +73,7 @@ const UserProfile: React.FC = () => {
                         handleEdit={() => setIsOpenEditAddress(true)}
                     />
                     <ButtonOutline className="mx-auto px-6 text-white bg-primary" onClick={handleSummit}>
-                        Cập nhật
+                        {t('user.update')}
                     </ButtonOutline>
                 </div>
                 {!mobile_ui && (

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { SEARCH_UTILITY } from '../../../../utils/const';
+import { SEARCH_UTILITY, useAppTranslation } from '../../../../utils/const';
 import { Skeleton } from '@mui/material';
 
 interface PropsInterface {
@@ -14,11 +14,13 @@ interface PropsInterface {
 }
 
 const Header: React.FC<PropsInterface> = ({ setOptionTab, optionTab, isLoading = false }) => {
+    const { t } = useAppTranslation();
+
     return (
         <div className="flex flex-col  sticky top-0 right-0 gap-1 w-full h-full mt-[-15px] z-10 bg-background_primary pt-4 pb-1 ">
             {!isLoading ? (
-                <div className="px-4 py-2 rounded-sm text-xl font-normal bg-white">Gợi ý hôm nay</div>
-                ) : (
+                <div className="px-4 py-2 rounded-sm text-xl font-normal bg-white">{t('search.suggestToday')}</div>
+            ) : (
                 <Skeleton variant="text" width={'200px'} height={'60px'} />
             )}
             <div className="w-full">
@@ -44,16 +46,17 @@ const Header: React.FC<PropsInterface> = ({ setOptionTab, optionTab, isLoading =
                     }}
                 >
                     {SEARCH_UTILITY.map((e) => (
-                        <SwiperSlide>
+                        <SwiperSlide key={e.id}>
                             <div
-                                key={uuidv4()}
                                 onClick={() => setOptionTab(e.id)}
                                 className={`flex flex-col gap-1 p-1 ${
                                     optionTab == e.id ? 'bg-bgSecondary border-primary' : 'bg-white'
                                 }  rounded-[4px] justify-center items-center cursor-pointer border-[1px] border-transparent border-solid  hover:border-primary`}
                             >
                                 <img className="w-[50px]" src={e.image} />
-                                <span className="text-sm text-primary truncate-trailing line-clamp-1">{e.title}</span>
+                                <span className="text-sm text-primary truncate-trailing line-clamp-1">
+                                    {t(e.title_key)}
+                                </span>
                             </div>
                         </SwiperSlide>
                     ))}

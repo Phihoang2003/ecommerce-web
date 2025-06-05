@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { ButtonOutline } from '..';
 import { formatMoney } from '../../utils/formatMoney';
-import { SORT_BAR } from '../../utils/const';
+import { SORT_BAR, useAppTranslation } from '../../utils/const';
 import queryString from 'query-string';
 import { useNavigate, useParams } from 'react-router-dom';
 
@@ -11,6 +11,7 @@ const SortBar: React.FC = () => {
     const queries = queryString.parse(location.search);
     const { star, pricefrom, priceto, brand, sort } = queries;
     const [sortBy, setSortBy] = useState<any>(sort || '');
+    const { t } = useAppTranslation();
 
     const navigate = useNavigate();
     // cập nhật lại query
@@ -28,10 +29,11 @@ const SortBar: React.FC = () => {
     return (
         <>
             <div className="flex items-center  gap-3 px-3 py-2 bg-[#EDEDED]">
-                <div className="text-sm font-normal shrink-0">Sắp xếp theo</div>
-                <div className='flex tablet:overflow-y-auto gap-3'>
+                <div className="text-sm font-normal shrink-0">{t('common.sort')}</div>
+                <div className="flex tablet:overflow-y-auto gap-3">
                     {SORT_BAR?.map((i) => (
                         <div
+                            key={i.id}
                             onClick={() => {
                                 setSortBy(i?.sortBy.sort);
                             }}
@@ -39,7 +41,7 @@ const SortBar: React.FC = () => {
                                 i?.sortBy.sort === sortBy ? 'bg-primary text-white font-semibold' : '  bg-white'
                             }`}
                         >
-                            {i?.label}
+                            {t(i?.label_key)}
                         </div>
                     ))}
                 </div>
@@ -73,7 +75,7 @@ const SortBar: React.FC = () => {
                             navigate(location.pathname);
                         }}
                     >
-                        Xóa tất cả
+                        {t('common.delete')}
                     </ButtonOutline>
                 </div>
             )}

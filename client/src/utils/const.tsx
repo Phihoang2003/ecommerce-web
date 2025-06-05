@@ -1,3 +1,10 @@
+import { useTranslation } from 'react-i18next';
+
+// Create a function to get translations
+export const useAppTranslation = () => {
+    return useTranslation();
+};
+
 export const path = {
     LOGIN: '/login',
     REGISTER: '/register',
@@ -21,70 +28,70 @@ export const SEARCH_UTILITY = [
     {
         id: 1,
         image: danhchoban,
-        title: 'Dành cho bạn',
+        title_key: 'search.forYou',
     },
     {
         id: 2,
         image: bachhoa,
-        title: 'Bách hóa dưới 99k',
+        title_key: 'search.groceryUnder99k',
     },
     {
         id: 3,
         image: dealsieuhot,
-        title: 'Siêu hot',
+        title_key: 'search.superHot',
     },
     {
         id: 4,
         image: hangmoi,
-        title: 'Hàng mới',
+        title_key: 'search.newItems',
     },
     {
         id: 5,
         image: revodoi,
-        title: 'Rẽ vô đối',
+        title_key: 'search.superCheap',
     },
 ];
 
 export const RATING_REVIEW = [
-    { start: 1, text: 'Rất tệ' },
-    { start: 2, text: 'Tệ ' },
-    { start: 3, text: 'Bình thường' },
-    { start: 4, text: 'Tốt ' },
-    { start: 5, text: 'Rất tốt' },
+    { start: 1, text_key: 'rating.veryBad' },
+    { start: 2, text_key: 'rating.bad' },
+    { start: 3, text_key: 'rating.normal' },
+    { start: 4, text_key: 'rating.good' },
+    { start: 5, text_key: 'rating.veryGood' },
 ];
 
 export const SORT_BAR = [
     {
         id: 0,
-        label: 'tất cả',
+        label_key: 'sort.all',
         sortBy: {
             sort: '',
         },
     },
     {
         id: 1,
-        label: 'Phổ biến',
+        label_key: 'sort.popular',
         sortBy: {
             sort: '-star',
         },
     },
     {
         id: 2,
-        label: 'Bán chạy',
+        label_key: 'sort.bestSelling',
         sortBy: {
             sort: '-sold',
         },
     },
     {
         id: 3,
-        label: 'Giá thấp đến cao',
+        label_key: 'sort.priceLowToHigh',
         sortBy: {
             sort: 'new_price',
         },
     },
     {
         id: 4,
-        label: 'Giá cao đến thấp',
+        label_key: 'sort.priceHighToLow',
         sortBy: {
             sort: '-new_price',
         },
@@ -94,57 +101,57 @@ export const SORT_BAR = [
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import SellIcon from '@mui/icons-material/Sell';
-import { bachhoa, danhchoban, dealsieuhot, hangmoi, imgPayInCash,  paypal, revodoi } from '../assets';
+import { bachhoa, danhchoban, dealsieuhot, hangmoi, imgPayInCash, paypal, revodoi } from '../assets';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
 
 export const SIDEBAR_USER = [
     {
-        label: 'Thông tin tài khoản',
+        label_key: 'user.accountInfo',
         path_name: 'profile',
         icon: <PersonIcon fontSize="medium" style={{ color: 'rgb(155,155,155)' }} />,
     },
     {
-        label: 'Đơn mua',
+        label_key: 'user.purchaseOrders',
         path_name: 'purchase',
         icon: <ShoppingBasketIcon fontSize="medium" style={{ color: 'rgb(155,155,155)' }} />,
     },
     {
-        label: 'Quản lý bán hàng',
+        label_key: 'user.sellManagement',
         path_name: 'sell',
         icon: <SellIcon fontSize="medium" style={{ color: 'rgb(155,155,155)' }} />,
     },
     {
-        label: 'Quản lý sản phẩm',
+        label_key: 'user.productManagement',
         path_name: 'product',
         icon: <ProductionQuantityLimitsIcon fontSize="medium" style={{ color: 'rgb(155,155,155)' }} />,
     },
 ];
 
 export const PAYMENT_METHOD = {
-    title: 'Chọn hình thức thanh toán',
+    title_key: 'payment.selectPaymentMethod',
     method: [
         {
             code: 'CASH',
-            label: 'Thanh toán tiền mặt khi nhận hàng',
+            label_key: 'payment.cashOnDelivery',
             img: imgPayInCash,
         },
         {
             code: 'PAYPAL',
-            label: 'Thanh toán bằng PAYPAL',
+            label_key: 'payment.paypal',
             img: paypal,
         },
     ],
 };
 export const DELIVERY_METHOD = {
-    title: 'Chọn hình thức giao hàng',
+    title_key: 'delivery.selectDeliveryMethod',
     method: [
         {
             code: 'FAST',
-            label: 'Giao tiết kiệm',
+            label_key: 'delivery.economyDelivery',
         },
         {
             code: 'NOW',
-            label: 'Giao siêu tốc',
+            label_key: 'delivery.fastDelivery',
         },
     ],
 };
@@ -152,53 +159,53 @@ export const DELIVERY_METHOD = {
 export const SELL_TAB = [
     {
         tab: 1,
-        title: 'Tất cả',
+        title_key: 'order.all',
     },
     {
         tab: 2,
-        title: 'Chờ xác nhận',
+        title_key: 'order.pending',
     },
     {
         tab: 3,
-        title: 'Vận Chuyển',
+        title_key: 'order.shipping',
     },
     {
         tab: 4,
-        title: 'Đã giao hàng',
+        title_key: 'order.delivered',
     },
     {
         tab: 5,
-        title: 'Thành công',
+        title_key: 'order.completed',
     },
     {
         tab: 6,
-        title: 'Đã hủy',
+        title_key: 'order.cancelled',
     },
 ];
 
 export const BOTTOM_NAVIGATE_MOBILE = [
     {
-        label: 'Trang chủ',
+        label_key: 'common.home',
         logo: 'https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/home.png',
         link: path.HOME,
     },
     {
-        label: 'Danh mục',
+        label_key: 'common.category',
         logo: 'https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/cate.png',
         link: path.PAGE_LIST_CATEGORY,
     },
     {
-        label: 'Theo dõi',
+        label_key: 'common.follow',
         logo: 'https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/account.png',
         link: '/follow',
     },
     {
-        label: 'Chat',
+        label_key: 'common.chat',
         logo: 'https://salt.tikicdn.com/ts/upload/b6/cb/1d/34cbe52e6c2566c5033103c847a9d855.png',
         link: '/message',
     },
     {
-        label: 'Cá nhân',
+        label_key: 'common.personal',
         logo: 'https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/account.png',
         link: path.PAGE_USER,
     },

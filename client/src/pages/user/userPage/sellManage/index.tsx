@@ -13,6 +13,7 @@ import ButtonOutline from '../../../../component/buttonOutline';
 import { showNotification } from '../../../../component';
 import { Link } from 'react-router-dom';
 import { path } from '../../../../utils/const';
+import { useTranslation } from 'react-i18next';
 
 const SellManage: React.FC = () => {
     const {
@@ -23,35 +24,36 @@ const SellManage: React.FC = () => {
         allOrdersSold_isDelivering,
         allOrdersSold_isSuccess,
     } = useAppSelector((state) => state.orderSold);
+    const { t } = useTranslation();
     const SELL_TAB = [
         {
             tab: 1,
-            title: 'Tất cả',
+            title: t('order.all'),
             quantity: allOrdersSold?.length,
         },
         {
             tab: 2,
-            title: 'Chờ xác nhận',
+            title: t('order.pending'),
             quantity: allOrdersSold_isConfirm?.length,
         },
         {
             tab: 3,
-            title: 'Vận Chuyển',
+            title: t('order.shipping'),
             quantity: allOrdersSold_delivery?.length,
         },
         {
             tab: 4,
-            title: 'Đã giao hàng',
+            title: t('order.delivered'),
             quantity: allOrdersSold_isDelivering?.length,
         },
         {
             tab: 5,
-            title: 'Thành công',
+            title: t('order.completed'),
             quantity: allOrdersSold_isSuccess?.length,
         },
         {
             tab: 6,
-            title: 'Đã hủy',
+            title: t('order.cancelled'),
             quantity: allOrdersSold_isCanceled?.length,
         },
     ];
@@ -68,7 +70,7 @@ const SellManage: React.FC = () => {
                 dispatch(setLoadDataOrderSold());
             }
         };
-      
+
         fetchApi();
     }, []);
     useEffect(() => {

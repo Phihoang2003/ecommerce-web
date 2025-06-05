@@ -8,6 +8,7 @@ import { IProductItem } from '../../../../interfaces/interfaces';
 import { CartShockDiscount, SkeletonProducts } from '../../../../component';
 import { Skeleton } from '@mui/material';
 import { useAppSelector } from '../../../../redux/hooks';
+import { useTranslation } from 'react-i18next';
 
 const ShockDiscount: React.FC = () => {
     const [products, setProducts] = useState<IProductItem[]>([]);
@@ -19,6 +20,7 @@ const ShockDiscount: React.FC = () => {
         };
         fetchProducts();
     }, []);
+    const { t } = useTranslation();
 
     return (
         <div
@@ -28,7 +30,9 @@ const ShockDiscount: React.FC = () => {
             <div className="w-full h-full flex justify-between ">
                 {products?.length > 0 ? (
                     <div className="flex  h-auto gap-3 items-center">
-                        <p className="text-2xl h-full font-medium text-[rgb(255,125,29)] italic ">Giảm giá sốc</p>
+                        <p className="text-2xl h-full font-medium text-[rgb(255,125,29)] italic ">
+                            {t('home.shockDiscount')}
+                        </p>
                         <img className="w-[20px] h-[20] animate-active-flash mt-1 " src={dealFlashIcon} />
                     </div>
                 ) : (

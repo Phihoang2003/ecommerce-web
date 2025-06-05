@@ -10,12 +10,14 @@ import {
 } from '../../../redux/features/action/actionSlice';
 import { apiGetNotification, apiIsWatched } from '../../../services/apiNotification';
 import NotExit from '../../common/NotExit';
+import { useTranslation } from 'react-i18next';
 
 const Notification: React.FC = () => {
     const [open, setOpen] = useState<boolean>(false);
     const dispatch = useAppDispatch();
     const { notifications, unreadNotification, socketRef } = useAppSelector((state) => state.action);
     const { isLoginSuccess } = useAppSelector((state) => state.auth);
+    const { t } = useTranslation();
 
     useEffect(() => {
         if (!socketRef) return;
@@ -30,10 +32,10 @@ const Notification: React.FC = () => {
     useEffect(() => {
         const fetchApi = async () => {
             const res = await apiGetNotification();
-            console.log("res",res)
+            console.log('res', res);
             res.success && dispatch(setNotifications(res.data));
             dispatch(setUnreadNotifications());
-        }; 
+        };
         isLoginSuccess && fetchApi();
     }, [isLoginSuccess]);
 
@@ -50,7 +52,7 @@ const Notification: React.FC = () => {
             }}
         >
             <NotificationsNoneIcon fontSize="small" />
-            <span className="tablet:hidden text-sm">Thông báo</span>
+            <span className="tablet:hidden text-sm">{t('user.notifications')}</span>
             <div className="absolute text-[13px] px-[5px]  rounded-[50%] bottom-1 left-2 h-fit bg-[#A769FD]">
                 {unreadNotification?.length}
             </div>
@@ -61,7 +63,9 @@ const Notification: React.FC = () => {
                     after:top-[-18px]  after:right-5 after:absolute after:z-[1000]"
                 >
                     <div className=" w-full h-full overflow-hidden ">
-                        <div className="flex justify-center text-secondary py-2  ">Thông báo mới nhận</div>
+                        <div className="flex justify-center text-secondary py-2  ">
+                            {t('notification.newNotifications')}
+                        </div>
                         <div className="mobile:w-[300px] mobile:h-[300px] w-[400px] h-[400px] overflow-y-scroll">
                             {notifications?.length > 0 ? (
                                 notifications?.map((n) => (
@@ -89,7 +93,7 @@ const Notification: React.FC = () => {
                                     </Link>
                                 ))
                             ) : (
-                                <NotExit label="không có thông báo nào" />
+                                <NotExit label={t('notification.noNotifications')} />
                             )}
                         </div>
                     </div>

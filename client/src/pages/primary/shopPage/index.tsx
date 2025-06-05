@@ -24,15 +24,17 @@ import { bgHeaderShop, noUser } from '../../../assets';
 import ButtonOutline from '../../../component/buttonOutline';
 import { formatUserName } from '../../../utils/formatUserName';
 import { createConversation } from '../../../services/apiConversation';
+import { useTranslation } from 'react-i18next';
 
 const ShopPage: React.FC = () => {
     const [shop, setShop] = useState<UserDetail>({} as UserDetail);
     const dispatch = useAppDispatch();
     const currentUser = useAppSelector((state) => state.user);
     const { isLoginSuccess, userOnline } = useAppSelector((state) => state.auth);
-    const { mobile_ui} = useAppSelector((state) => state.action);
+    const { mobile_ui } = useAppSelector((state) => state.action);
     const [followers, setFollowers] = useState<Array<string>>([]);
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     const { sid } = useParams<{ sid: string }>();
     useEffect(() => {
@@ -148,7 +150,7 @@ const ShopPage: React.FC = () => {
                 <div className="tablet:hidden w-1/6  p-4  bg-white ">
                     <div className="flex items-center gap-1 ">
                         <FilterAltOutlinedIcon fontSize="small" />
-                        <h1 className="uppercase font-medium text-base"> Bộ lọc tìm kiếm</h1>
+                        <h1 className="uppercase font-medium text-base"> {t('search.filterSearch')}</h1>
                     </div>
                     <SearchByRating />
                     <SearchByPrice />

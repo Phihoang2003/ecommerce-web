@@ -1,9 +1,9 @@
 import React from 'react';
 import BackpackIcon from '@mui/icons-material/Backpack';
 import { ProductInCartItem } from '../../../component';
-import {  useAppSelector } from '../../../redux/hooks';
+import { useAppSelector } from '../../../redux/hooks';
 import moment from 'moment';
-import { DELIVERY_METHOD, PAYMENT_METHOD } from '../../../utils/const';
+import { DELIVERY_METHOD, PAYMENT_METHOD, useAppTranslation } from '../../../utils/const';
 import PayPal from '../paypalPage';
 
 interface LeftProps {
@@ -21,72 +21,76 @@ interface LeftProps {
 
 const Left: React.FC<LeftProps> = ({ methods, setMethods }) => {
     const { productsByShopId } = useAppSelector((state) => state?.order);
+    const { t } = useAppTranslation();
 
     return (
-      <>
-      
-      <div className="tablet:w-full w-4/6 relative py-3">
-            <div className="flex flex-col bg-white rounded-md gap-10 p-6 mb-2">
-                <div>
-                    <h1 className="text-lg mb-3 font-medium">{DELIVERY_METHOD.title}</h1>
-                    <div className=" flex flex-col w-1/2 gap-1 p-4 bg-[#F0F8FF] rounded-md  border-solid border-[1px]  border-slate-300">
-                        {DELIVERY_METHOD.method.map((e) => (
-                            <label
-                                className="flex gap-2 items-center"
-                                onClick={() => setMethods((prev) => ({ ...prev, deliveryMethod: e?.code }))}
-                            >
-                                <input type="radio" checked={methods.deliveryMethod === e?.code} />
-                                <span className="text-[rgb(255,183,0)] font-black text-sm">{e?.code}</span>
-                                <span className="text-sm">{e?.label}</span>
-                            </label>
-                        ))}
-                    </div>
-                </div>
-
-                {productsByShopId?.map((e, index) => (
-                    <div className="relative p-2 border-solid border-[1px] border-bgSecondary rounded-xl">
-                        <div className="absolute flex gap-1 items-center top-[-15px] left-8 bg-white px-2 text-primary">
-                            <BackpackIcon fontSize="small" style={{ color: 'rgb(0 136 72)' }} />
-                            Gói {index + 1} : Giao vào{' '}
-                            <span className="capitalize">{moment(e?.deliverDate).format('dddd, DD/MM/YYYY')}</span>
-                        </div>
-                        <div className="mt-4">
-                            {e?.products.map((p) => (
-                                <ProductInCartItem
-                                    product={{
-                                        _id: e?._id,
-                                        quantity: p.quantity ? p.quantity : 1,
-                                        shopId: e?.shopId,
-                                        totalPrice: p.totalPrice,
-                                        user: e?.user,
-                                        productId: p,
-                                    }}
-                                />
+        <>
+            <div className="tablet:w-full w-4/6 relative py-3">
+                <div className="flex flex-col bg-white rounded-md gap-10 p-6 mb-2">
+                    <div>
+                        <h1 className="text-lg mb-3 font-medium">{t(DELIVERY_METHOD.title_key)}</h1>
+                        <div className=" flex flex-col w-1/2 gap-1 p-4 bg-[#F0F8FF] rounded-md  border-solid border-[1px]  border-slate-300">
+                            {DELIVERY_METHOD.method.map((e, index) => (
+                                <label
+                                    key={index}
+                                    className="flex gap-2 items-center"
+                                    onClick={() => setMethods((prev) => ({ ...prev, deliveryMethod: e?.code }))}
+                                >
+                                    <input type="radio" checked={methods.deliveryMethod === e?.code} />
+                                    <span className="text-[rgb(255,183,0)] font-black text-sm">{e?.code}</span>
+                                    <span className="text-sm">{t(e?.label_key)}</span>
+                                </label>
                             ))}
                         </div>
                     </div>
-                ))}
 
-                <div>
-                    <h1 className="text-lg mb-3 font-medium">{PAYMENT_METHOD.title}</h1>
-                    <div className=" flex flex-col w-1/2 gap-3 p-4 rounded-md  ">
-                        {PAYMENT_METHOD.method.map((e) => (
-                            <label
-                                className="flex gap-2 items-center"
-                                onClick={() => setMethods((prev) => ({ ...prev, paymentMethod: e?.code }))}
-                            >
-                                <input type="radio" checked={methods.paymentMethod === e?.code} />
-                                <img className={` ${e.code=="PAYPAL" ?"w-20":"w-8 h-8"} `} src={e?.img} />
-                               { e.code!=="PAYPAL" &&<span className="text-sm">{e?.code}</span>}
-                            </label>
-                        ))}
+                    {productsByShopId?.map((e, index) => (
+                        <div
+                            key={index}
+                            className="relative p-2 border-solid border-[1px] border-bgSecondary rounded-xl"
+                        >
+                            <div className="absolute flex gap-1 items-center top-[-15px] left-8 bg-white px-2 text-primary">
+                                <BackpackIcon fontSize="small" style={{ color: 'rgb(0 136 72)' }} />
+                                Gói {index + 1} : Giao vào{' '}
+                                <span className="capitalize">{moment(e?.deliverDate).format('dddd, DD/MM/YYYY')}</span>
+                            </div>
+                            <div className="mt-4">
+                                {e?.products.map((p) => (
+                                    <ProductInCartItem
+                                        key={p._id}
+                                        product={{
+                                            _id: e?._id,
+                                            quantity: p.quantity ? p.quantity : 1,
+                                            shopId: e?.shopId,
+                                            totalPrice: p.totalPrice,
+                                            user: e?.user,
+                                            productId: p,
+                                        }}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+
+                    <div>
+                        <h1 className="text-lg mb-3 font-medium">{t(PAYMENT_METHOD.title_key)}</h1>
+                        <div className=" flex flex-col w-1/2 gap-3 p-4 rounded-md  ">
+                            {PAYMENT_METHOD.method.map((e, index) => (
+                                <label
+                                    key={index}
+                                    className="flex gap-2 items-center"
+                                    onClick={() => setMethods((prev) => ({ ...prev, paymentMethod: e?.code }))}
+                                >
+                                    <input type="radio" checked={methods.paymentMethod === e?.code} />
+                                    <img className={` ${e.code == 'PAYPAL' ? 'w-20' : 'w-8 h-8'} `} src={e?.img} />
+                                    {e.code !== 'PAYPAL' && <span className="text-sm">{t(e?.label_key)}</span>}
+                                </label>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-               
-      </>
-
+        </>
     );
 };
 

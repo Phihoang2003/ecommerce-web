@@ -1,0 +1,2094 @@
+[{
+  "_id": {
+    "$oid": "6450d1fb1d1397a25959dc17"
+  },
+  "email": "datp1907@gmail.com",
+  "cart": [
+    "64577f5d2daf7497c5c22aee"
+  ],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "passwordTokenExpires": "1724837245001",
+  "createdAt": {
+    "$date": "2023-05-02T09:03:55.393Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:11:41.121Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$3cINUghr9K.DOZknEyPHVOD86Jv2bgryH1GxBxoWR5XsOzJCr3Xs.",
+  "address": "Xã Sảng Tủng, Huyện Đồng Văn, Tỉnh Hà Giang",
+  "firstName": "Ngọc Đạt",
+  "lastName": "Phạm",
+  "mobile": "0817442948",
+  "followings": [
+    "645115c86de64b2c34e0de3a",
+    "64611f6f10487bbfc0707e82"
+  ],
+  "followers": [
+    {
+      "$oid": "64dedbb8abc044cb9ceffa28"
+    }
+  ],
+  "totalProduct": 700,
+  "passwordResetToken": "0c23fec35a8d7a2a67bf8559e58d58628584c32b6c99607ebcdb0b50ca1043f2",
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocK0JhwrESny30dbMiRmupaYV_1xHM5jZykR43EQR1576Gxeck3R=s96-c",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "645115c86de64b2c34e0de3a"
+  },
+  "email": "datp@gmail.com",
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": "5d0453b2bd48e46a0e0cca50fe457500ae87a3c774c39f86997b8b18fd733415",
+  "passwordTokenExpires": "1683035626205",
+  "createdAt": {
+    "$date": "2023-05-02T13:53:12.692Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-03T11:24:19.233Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$k.0RXO.4aMKYbruYW/wbdu2Z3rFo.obDIU8aZjCOGWCMe/qkQwFAu",
+  "followings": [],
+  "followers": [
+    {
+      "$oid": "6450d1fb1d1397a25959dc17"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64611f4510487bbfc0707e7b"
+  },
+  "email": "phamngocdat10223@gmail.com",
+  "followings": [],
+  "followers": [
+    {
+      "$oid": "646b9d7832f3b04864b3de27"
+    },
+    {
+      "$oid": "64e7a02ee5efe31f54e94dbc"
+    },
+    {
+      "$oid": "64dedbb8abc044cb9ceffa28"
+    },
+    {
+      "$oid": "66c8652fe64fd1f6c8dae066"
+    }
+  ],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "9c59577344eb7bd6e3b48c7121e083edabaf8a8ff309916d3d2cea60e7128a83",
+  "totalProduct": 650,
+  "passwordTokenExpires": "1684086630707",
+  "createdAt": {
+    "$date": "2023-05-14T17:49:57.224Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-23T10:37:24.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64611f6f10487bbfc0707e82"
+  },
+  "email": "phamngocdat10223vlog@gmail.com",
+  "followings": [
+    "646b9d7832f3b04864b3de27",
+    "646b9d7832f3b04864b3de27",
+    "6450d1fb1d1397a25959dc17"
+  ],
+  "followers": [
+    {
+      "$oid": "65543b4077eb4d84220681d0"
+    },
+    {
+      "$oid": "6450d1fb1d1397a25959dc17"
+    }
+  ],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 663,
+  "passwordTokenExpires": "1692241345982",
+  "createdAt": {
+    "$date": "2023-05-14T17:50:39.823Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:12:29.704Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$Rx1.OMMak9VFkBuWCp0pg.hnEQbCS6Pti2TaB9/imUqgaovvXv2vy",
+  "address": "Phường Sông Hiến, Thành phố Cao Bằng, Tỉnh Cao Bằng",
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIkrLRyVMfWYJJfrrWqSunkbMifYxmpQXPSNEVxTxyB__rAqc0=s96-c",
+  "firstName": "PNĐ",
+  "lastName": "Vlogs",
+  "mobile": "0817442948",
+  "passwordResetToken": "2a571df994abaf56d642c69ad3b9d2152ab38230892583936253440c85d02432"
+},
+{
+  "_id": {
+    "$oid": "6461e3908d5ce7e7c19bfcd4"
+  },
+  "email": "dpshopvn@gmail.com",
+  "followings": [
+    "6450d1fb1d1397a25959dc17"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": true,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-05-15T07:47:28.693Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-11T13:28:45.378Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$mrjReFOwYYkoAtS.exHRm.1wVgzP3u0DlZJT1rbhno6o6Y46N0HBK",
+  "passwordResetToken": null,
+  "address": "Xã Sảng Tủng, Huyện Đồng Văn, Tỉnh Hà Giang",
+  "firstName": "Shop",
+  "lastName": "Admin",
+  "mobile": "09088989",
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKC1RQlYffTLjTTsgeSAEpKm1wo6doRvT4peMBBID2T0w=s96-c",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "646a387abce89c8a6590d8e2"
+  },
+  "email": "dsjd@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "17a22c5ee0489655020a33ba900397b253396939bc49b14d87cb81e5b0ebe6f9",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684682926494",
+  "createdAt": {
+    "$date": "2023-05-21T15:27:54.983Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:28:16.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a38c0bce89c8a6590d8f0"
+  },
+  "email": "hyug6@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "f0e0b8b1dd531da8aadcb227af0534d37b3f786ae091af176cb72fe37c697d27",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684684144432",
+  "createdAt": {
+    "$date": "2023-05-21T15:29:04.434Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:29:04.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a38d9bce89c8a6590d8fa"
+  },
+  "email": "hghg@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "2ebfac4c7d177ea00e2488e61836c4ad76f8c1c0a69227a4dbc1216a34002c26",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684683148727",
+  "createdAt": {
+    "$date": "2023-05-21T15:29:29.982Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:31:58.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a3c1ae123f2996482de1a"
+  },
+  "email": "fc@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "e8cc50c7c0f96458b5d2767624b12159179c2432313a53402574a6cd19ff8fbd",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684683834501",
+  "createdAt": {
+    "$date": "2023-05-21T15:43:22.228Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:43:24.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a3c4fe123f2996482de21"
+  },
+  "email": "dsds@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "3d08794d6497beeafad6ad93c231678f44b10c495c200995f16c83708e3f9443",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684683993455",
+  "createdAt": {
+    "$date": "2023-05-21T15:44:15.823Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:46:03.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a3d0be123f2996482de31"
+  },
+  "email": "hsd@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "8ce0e5aac03b26bb5da443c5926dd8f0511886d797c050f015cf375966979bd0",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684684074307",
+  "createdAt": {
+    "$date": "2023-05-21T15:47:23.648Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:47:24.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646a3d71e123f2996482de3d"
+  },
+  "email": "s@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "c9880f7c765ae7977b1ab009b7a240c81e21683b5f88a8b9ebf7a67971917f72",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684684177869",
+  "createdAt": {
+    "$date": "2023-05-21T15:49:05.606Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-21T15:49:07.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646b9abf5eb706a356091cc1"
+  },
+  "email": "sds@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "de5ae316c4e1561840101acbf2f3a4cfc775a7e869a23d68a6d5585876354955",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684773867585",
+  "createdAt": {
+    "$date": "2023-05-22T16:39:27.603Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-22T16:39:27.603Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646b9ac35eb706a356091cc6"
+  },
+  "email": "sdes@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "0cb9db9f119e25d65f647119e6efaa141e36266f034a9a3eea7ab323e7e1becc",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1684773910446",
+  "createdAt": {
+    "$date": "2023-05-22T16:39:31.998Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-22T16:40:10.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646b9d7832f3b04864b3de27"
+  },
+  "email": "fcbongdaspg@gmail.com",
+  "followings": [
+    "64611f6f10487bbfc0707e82",
+    "64611f6f10487bbfc0707e82",
+    "64611f4510487bbfc0707e7b",
+    "64611f6f10487bbfc0707e82",
+    "64611f6f10487bbfc0707e82",
+    "64611f6f10487bbfc0707e82"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": "1690710067116",
+  "createdAt": {
+    "$date": "2023-05-22T16:51:04.981Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-30T09:36:07.141Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$SysD8lflIQG9nACsrAxg6OQ2sRXIFRE9m5gYDKdaE5UPE.9AUAlcK",
+  "address": "Xã Sảng Tủng, Huyện Đồng Văn, Tỉnh Hà Giang",
+  "address_detail": "",
+  "firstName": "Yêu",
+  "lastName": "Em",
+  "mobile": "0817442948",
+  "avatar_url": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1690547719/dpshopvn/crjcy0fcnoezyo48nuiq.jpg",
+  "passwordResetToken": "ad1bd3ac8b6373a0ba9998f470c5c89677585212fd6e29a88921bd6fc683a2b7"
+},
+{
+  "_id": {
+    "$oid": "64dedbb8abc044cb9ceffa28"
+  },
+  "firstName": "Yêu tui đi",
+  "email": "datp927@gmail.com",
+  "followings": [
+    "64611f4510487bbfc0707e7b"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-18T02:47:20.781Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-09T13:26:56.139Z"
+  },
+  "__v": 0,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJ0zeGeyRQ7wYTrzLJd63aWXTyeJP_Fap0pBxmWrwy0swM=s96-c",
+  "address": "Phường Thành Công, Quận Ba Đình, Thành phố Hà Nội",
+  "lastName": "yêu",
+  "mobile": "0817442948",
+  "passwordTokenExpires": "1715261516136",
+  "verificationEmailToken": "52d565c9300b56cadc9858ed1d26ab72f0f78ec74905d980db1b712e26e934e8"
+},
+{
+  "_id": {
+    "$oid": "64e0897d636126c7e1f99600"
+  },
+  "firstName": "Huy",
+  "lastName": "Lê",
+  "email": "chode23con@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtc_KMqQ9nfr-UWVdwSurR3jmUh4Yh8NEJc4QutMbgjL=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-19T09:21:01.174Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T09:23:37.914Z"
+  },
+  "__v": 0,
+  "address": "Phường Hàng Bột, Quận Đống Đa, Thành phố Hà Nội",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "64e09a2a636126c7e1f99c54"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "trung@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "d0e1448a6d427df9be3667760fa8959a2ebee76a9f89609215acd0c6128a5eae",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692441430010",
+  "createdAt": {
+    "$date": "2023-08-19T10:32:10.014Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:32:10.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09a3c636126c7e1f99c59"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "hello123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "2d038e4dcb4443f0f4a2fc261941c0d76d6cbd17c3ce8e03a1cf302ed012a94a",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692441448604",
+  "createdAt": {
+    "$date": "2023-08-19T10:32:28.605Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:32:28.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09a4e636126c7e1f99c5e"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "hanhphuc4567@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "0dfe8dbf2ba6b6a8f34def314ad0bcc561574c9cdc52063d9c41663595770d50",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692441473220",
+  "createdAt": {
+    "$date": "2023-08-19T10:32:46.982Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:32:53.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09a8e636126c7e1f99c8b"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "chipukuusinger@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-08-19T10:33:50.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:34:41.327Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$XVuEkT/f4yXM86WX/va69ebV7il2NiixdIowVhUvGdtjcuazYc5/6"
+},
+{
+  "_id": {
+    "$oid": "64e09c26636126c7e1f99e1d"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abc@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "31712097934eafa95be07f5d078c52bfa5eb0e8c6d99e9e237234fbf4ac677dd",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1693573037468",
+  "createdAt": {
+    "$date": "2023-08-19T10:40:38.140Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-01T12:52:17.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09c2a636126c7e1f99e34"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "ab132e4c@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-08-19T10:40:42.525Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:40:52.323Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09c3c636126c7e1f99e45"
+  },
+  "firstName": "HUY",
+  "lastName": "LÊ",
+  "email": "huylgps20497@fpt.edu.vn",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtdTVxlYuECkmRJNuZ84tKbYbW1-xuvEaIuPdGLgI9Qx=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-19T10:41:00.640Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:42:23.823Z"
+  },
+  "__v": 0,
+  "address": "Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "64e09c78636126c7e1f99ea9"
+  },
+  "firstName": "Nguyễn Mạnh",
+  "lastName": "Tuấn",
+  "email": "tuan2k2nhat@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtdWrqtdQzBQNhRKYOI8NI6Luz1uF-NrusOrIscGL5LFCpQ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-19T10:42:00.278Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-21T02:56:00.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09c8b636126c7e1f99ee6"
+  },
+  "firstName": "Nguyễn",
+  "lastName": "Tuân",
+  "email": "tuankapro349@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtfIRU6fxUAFceMyt8R9cUy_VSDGLiY9V82GyPeblkFn=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-19T10:42:19.586Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:45:12.596Z"
+  },
+  "__v": 0,
+  "tablet": "",
+  "address": "Thị trấn Pác Miầu, Huyện Bảo Lâm, Tỉnh Cao Bằng"
+},
+{
+  "_id": {
+    "$oid": "64e09fa4636126c7e1f9b6df"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "djj@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "7ef96290cdabecc3cda431f9de3cabe5d285c1837517b0c8bf011a0daac191de",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692442832454",
+  "createdAt": {
+    "$date": "2023-08-19T10:55:32.457Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:55:32.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09fa9636126c7e1f9b6e4"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "djjdhgd@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "6a721c8fa1e03d925f05107bb26fead442b38a32786731c760b952647d8adcff",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692442840641",
+  "createdAt": {
+    "$date": "2023-08-19T10:55:37.914Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T10:55:40.641Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e0b8effafa90e83a52c1ac"
+  },
+  "firstName": "PFU",
+  "lastName": "Phú",
+  "email": "hoangquangthanhphu3@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtcA-SAn6UxyrNJe1fqkuivz0Eb4zP9l5h_-HDzE7T-JWg=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-19T12:43:27.312Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T12:43:27.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e0c82d5c60b60dac220149"
+  },
+  "firstName": "abc",
+  "lastName": "abc",
+  "email": "sun.boraxxd@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-08-19T13:48:29.508Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-22T05:33:31.267Z"
+  },
+  "__v": 0,
+  "password": "$2b$10$hgKQCUgvYxzmEetSTPZihe3qRNFvlSpdiuILTAoVKmrhQWGxI/JR.",
+  "tablet": "",
+  "address": "Phường 14, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+  "avatar_url": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1692669099/dpshopvn/q3ooyruirgq2cbkbkpcv.jpg"
+},
+{
+  "_id": {
+    "$oid": "64e2c7267c0971655131adc3"
+  },
+  "firstName": "phúc thoại",
+  "lastName": "trần",
+  "email": "tranphucthoai2022@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1692583919/dpshopvn/ji3fbctt7nwrshv974xi.jpg",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-21T02:08:38.420Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-21T02:12:23.229Z"
+  },
+  "__v": 0,
+  "address": "Xã Tát Ngà, Huyện Mèo Vạc, Tỉnh Hà Giang",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "64e2dc4c82697a42ed6bee83"
+  },
+  "firstName": "07.Đoàn Trí",
+  "lastName": "Hùng",
+  "email": "koikoidth12@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtfgzPJpPTCHC8Q_k1jB6-Greejc4nADW-pLsHYToJ-zAVg=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-21T03:38:52.714Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-21T03:41:24.702Z"
+  },
+  "__v": 0,
+  "address": "Phường 1, Thành phố Bạc Liêu, Tỉnh Bạc Liêu",
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "64e326f6d53ba58e97b007c1"
+  },
+  "firstName": "Năm",
+  "lastName": "Trần",
+  "email": "trannamdmxdp@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtf6OHmHCkHarotlgmGPOPq7ZKyH_aVP6_aGrcViB8a_=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-21T08:57:26.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-21T08:57:26.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e32a59d53ba58e97b00817"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "duong@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "52a0106b5f07dd820bf407f4298919b7ede63a2c3e0bbe30f287b36df0a4dffc",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692609417534",
+  "createdAt": {
+    "$date": "2023-08-21T09:11:53.031Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-21T09:11:57.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e382ff4eab5f3ff65e8737"
+  },
+  "firstName": "Văn Lương",
+  "lastName": "Trần",
+  "email": "vanluongtran724@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtcKYwtIaAzc4r087rF_hfL1m-8vCWcpEQ2KzfkhQaXZ=s96-c",
+  "confirm": false,
+  "totalProduct": 1,
+  "createdAt": {
+    "$date": "2023-08-21T15:30:07.889Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-23T20:07:44.602Z"
+  },
+  "__v": 0,
+  "tablet": ""
+},
+{
+  "_id": {
+    "$oid": "64e66c0ccfff3314c1bcf90f"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "taptanhlaptrinh@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": "23b1df10828e8f3ffc1e772591fa7b38334732e986598b476a992e8eca9a6dfc",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692822899258",
+  "createdAt": {
+    "$date": "2023-08-23T20:29:00.737Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-23T20:29:59.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7176f3d916d3e3a85c680"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "t@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-08-24T08:40:15.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-11T07:02:00.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e717763d916d3e3a85c685"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "t1@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "05b3ae396337251a64f3d5ba87bd62f88949a77b40c0c8164903c60a73eeee72",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692866722013",
+  "createdAt": {
+    "$date": "2023-08-24T08:40:22.015Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T08:40:22.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7177d3d916d3e3a85c68a"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "t122@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "c88645d1ec837dd151a53f1dde63c74c96d8a7e97d13eaf4f787e5c1a201b723",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692866729660",
+  "createdAt": {
+    "$date": "2023-08-24T08:40:29.661Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T08:40:29.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7178a3d916d3e3a85c68f"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "t122332@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "b586ceb09e84d63773c8902ab44d508821bc208c0fe6ecd5def14b4fdf88d316",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692866742649",
+  "createdAt": {
+    "$date": "2023-08-24T08:40:42.651Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T08:40:42.651Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e717963d916d3e3a85c694"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "tttr1@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "9b5e7204162734aee719df24cfbecd547e6375ee8eb5333bd7b1db72f4960b7e",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692866810437",
+  "createdAt": {
+    "$date": "2023-08-24T08:40:54.138Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T08:41:50.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e75a2d9c7a4b08ad4bfe18"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "example@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "5ab06e70cf99551381175eaed36c0ef2333afe0a9ec09f35c1e6c56e1011d119",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692883801696",
+  "createdAt": {
+    "$date": "2023-08-24T13:25:01.706Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T13:25:01.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e75a339c7a4b08ad4bfe1d"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "example1@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "07f4a8dc3bf819b9ffbee29484345c280772ea78e76a948378e86644ca45f6ca",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692883807472",
+  "createdAt": {
+    "$date": "2023-08-24T13:25:07.473Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T13:25:07.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e75a399c7a4b08ad4bfe22"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "example123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "152773ecd2a236c51a5a6e705563dfafe31cfdde0eb1bdd62b1fc33238e16ee1",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692883813678",
+  "createdAt": {
+    "$date": "2023-08-24T13:25:13.679Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T13:25:13.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e75a4b9c7a4b08ad4bfe27"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "dcmvaicalon@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "41cdd29e4317e0f842d43ef2b4ec3f5fcb95ca0561f04925d3a85197ec692511",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692883858894",
+  "createdAt": {
+    "$date": "2023-08-24T13:25:31.426Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T13:25:58.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e7a02ee5efe31f54e94dbc"
+  },
+  "firstName": "Cuong",
+  "lastName": "Nguyen",
+  "email": "openvn.notification@gmail.com",
+  "followings": [
+    "64611f4510487bbfc0707e7b"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtderMN0s-fjUIrNnffuvHSrMc0-bh69UO9oqYY7kfTTOA=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-24T18:23:42.725Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T10:58:27.781Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8028929293309171ae223"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "teo123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "0c4d4cd459e6000c74039d0f12284483f5a3d0bc0a9157066184ec27e4d463a2",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692926901366",
+  "createdAt": {
+    "$date": "2023-08-25T01:23:21.370Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T01:23:21.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8028f29293309171ae228"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "teo1234@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "822201362a8941080c9c9fce71475bb9eab7a7e33f41db6fb9ab8c8f68874e7b",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692926910033",
+  "createdAt": {
+    "$date": "2023-08-25T01:23:27.693Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T01:23:30.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e807de29293309171ae277"
+  },
+  "firstName": "Le",
+  "lastName": "An",
+  "email": "lethanhancr7112001@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtfOnBsEHeFGyZiytSBvEhY9caxTqLcc1pvQxe__h9gCpQ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-25T01:46:06.195Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T01:47:50.727Z"
+  },
+  "__v": 0,
+  "mobile": "0969713359",
+  "address": "Thị trấn Thường Tín, Huyện Thường Tín, Thành phố Hà Nội"
+},
+{
+  "_id": {
+    "$oid": "64e82bba2c811ae31bf8a1b5"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "hikaruti@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "01ef00923e18797a3b5b7e4265b3d454103fbe97878110d3268f838b5ee683fb",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692937446996",
+  "createdAt": {
+    "$date": "2023-08-25T04:19:07.001Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T04:19:07.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e82bc62c811ae31bf8a1ba"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "nguyenphubinh2207@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "bea7efa88e8974402cb301a9ee468b3b06122882fcc19397f8413acbcc179b66",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1692937458809",
+  "createdAt": {
+    "$date": "2023-08-25T04:19:18.811Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T04:19:18.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb3bcb882a9c162f37d7fd"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "hung@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "58db47f63d94a94e7a3e1fcd757afd665d96499aa5b1a0ca34bbe889ffb10a48",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1693138167047",
+  "createdAt": {
+    "$date": "2023-08-27T12:04:27.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-27T12:04:27.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb3bd4882a9c162f37d802"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "manhhung11a@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "c81324deed82a3b76b923e2fa7c23f855bc111ebe9e47b3217beff163a2a8913",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1693138178175",
+  "createdAt": {
+    "$date": "2023-08-27T12:04:36.283Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-27T12:04:38.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ed9adef90f5151e44469ad"
+  },
+  "firstName": "Mạnh",
+  "lastName": "Trường",
+  "email": "usheart98@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJ1aick2fH2a-I8q41YpRqo5PjkmojtCZknYRZj-pqfywc=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-29T07:14:38.621Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-05T03:58:05.508Z"
+  },
+  "__v": 0,
+  "address": "Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội"
+},
+{
+  "_id": {
+    "$oid": "64ef021de5fbf5b068243289"
+  },
+  "firstName": "Dũng",
+  "lastName": "Ngô",
+  "email": "ngovandung397@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtfQRCYtSHagXAJ3uG1Ebp8ieCI1r4JUl-xcq0jarYTiSw=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-08-30T08:47:25.960Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T08:52:51.870Z"
+  },
+  "__v": 0,
+  "address": "Phường Trần Phú, Thành phố Hà Giang, Tỉnh Hà Giang",
+  "mobile": "09898980"
+},
+{
+  "_id": {
+    "$oid": "64fc4dbd877e838718e9a695"
+  },
+  "firstName": "Hoàng",
+  "lastName": "Việt",
+  "email": "accphuu1111@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLyPQ0KcMzaPErr-rthd1xOVHuYBTxJEVDCLjSZQird0oE=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-09-09T10:49:33.436Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-09T10:52:08.286Z"
+  },
+  "__v": 0,
+  "address": "Phường Bách Khoa, Quận Hai Bà Trưng, Thành phố Hà Nội",
+  "mobile": "0345641231"
+},
+{
+  "_id": {
+    "$oid": "64fffef9d673b7fe061506d8"
+  },
+  "firstName": "Nam",
+  "lastName": "Phan Hoài",
+  "email": "phanhoainam482@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLU9-iiT83NctIPk6dwSbIPDNfCKFL-AFtReG4Zxfepk19dzE8=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-09-12T06:02:33.318Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T12:07:14.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650fb35b233865909ba0a8de"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "test@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "d85190333ddff504244e459b3bc65bd0789ac096763bb46155fd9b40b449bb60",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1695528071238",
+  "createdAt": {
+    "$date": "2023-09-24T03:56:11.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-24T03:56:11.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650fb361233865909ba0a8e3"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "test11@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": null,
+  "totalProduct": 0,
+  "passwordTokenExpires": null,
+  "createdAt": {
+    "$date": "2023-09-24T03:56:17.046Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-24T03:56:23.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650fb37c233865909ba0a8ef"
+  },
+  "firstName": "My",
+  "lastName": "Diễm",
+  "email": "dm860974@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocI05iO90nw_Ik1ernzbz-RTQjg49ENh0deqZHZCohRW=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-09-24T03:56:44.406Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-15T03:16:40.837Z"
+  },
+  "__v": 0,
+  "address": "Thành phố Hà Nội",
+  "mobile": "dwqd"
+},
+{
+  "_id": {
+    "$oid": "65543b4077eb4d84220681d0"
+  },
+  "firstName": "Tuấn",
+  "lastName": "Nguyễn Mạnh",
+  "email": "nguyenmanhtuancomputer@gmail.com",
+  "followings": [
+    "64611f6f10487bbfc0707e82"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLoCt6TxIcbujNlacnnb3VJ4Zd7EZg_TSW2AskbrpMsSQ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-11-15T03:30:08.401Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-17T05:34:45.838Z"
+  },
+  "__v": 0,
+  "address": "Xã Tát Ngà, Huyện Mèo Vạc, Tỉnh Hà Giang",
+  "mobile": "0363073476"
+},
+{
+  "_id": {
+    "$oid": "6555df0ebfab72fc044b7b05"
+  },
+  "firstName": "Mạnh Dũng",
+  "lastName": "Trần",
+  "email": "dunghoc11@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocI5D4N-yp4lKYLv2fjblEwr1JdoSBRqXfP87N-Pgq-kFw8=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2023-11-16T09:21:18.624Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-18T15:36:54.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a6deb6046d0484959145"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "datptiktok@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "fa838b29c682047ec613b387b17349e73281b3c9c3abba4fb54a905ec509fcd8",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1700833290100",
+  "createdAt": {
+    "$date": "2023-11-24T13:36:30.113Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T13:36:30.113Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a70cb6046d048495914a"
+  },
+  "firstName": "123",
+  "lastName": "tiktok",
+  "email": "datptiktok1@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "3c52c3ec3733999a45d4f610c90e9e2a671b8766634ba804ea5cf15fd0b5aca8",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1700833338138",
+  "createdAt": {
+    "$date": "2023-11-24T13:37:16.032Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:13:37.301Z"
+  },
+  "__v": 0,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKLmfD3uIvdbmCnU8lQuQN-YaoxV1aNz_qpYsWi2k58-x-OfQ=s96-c"
+},
+{
+  "_id": {
+    "$oid": "657882dd638b6b024fa26841"
+  },
+  "firstName": "Đức",
+  "lastName": "Kiều",
+  "email": "duckt.tn34@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": true,
+  "verificationEmailToken": "e272fa1e803f8384fd7fa36484ee8a7680e844836de8c080a68c4864abe5ff6e",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1702660611663",
+  "createdAt": {
+    "$date": "2023-12-12T15:57:17.317Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-11T07:41:43.410Z"
+  },
+  "__v": 0,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKie1qJkcLfkte0Gn2hNE9WufIbZr-T2YHnlOVH-Jd6-r0=s96-c",
+  "address": "Phường Mỹ Đình 1, Quận Nam Từ Liêm, Thành phố Hà Nội",
+  "mobile": "0394953305"
+},
+{
+  "_id": {
+    "$oid": "657882f3638b6b024fa26846"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "k.duc.5555@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "582eb6cd5efb3bdab65988b2135866ce772861a8d501372a1e4498a5258fe9c6",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1702396959428",
+  "createdAt": {
+    "$date": "2023-12-12T15:57:39.429Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T15:57:39.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f000f31f4d7ad318ca9cc6"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "sdsd@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "66308ca9ce54ee7bd8530d4d83a0a970c60e9095a8fe2647f9fc1563c350a396",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1710227999638",
+  "createdAt": {
+    "$date": "2024-03-12T07:14:59.645Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-12T07:14:59.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f000f61f4d7ad318ca9ccb"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "sdsda@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "0f68afad0a38fd8332849f8e676ee03c990407689b7a38b4f9a378afd6fea01d",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1710228004878",
+  "createdAt": {
+    "$date": "2024-03-12T07:15:02.571Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-12T07:15:04.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0015c1f4d7ad318ca9cd2"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "datptiktok3@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "87e6e50d15752b8582c5ac6dce382e4bfd3f33d17f46f9a89c030322674749a8",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1710228104052",
+  "createdAt": {
+    "$date": "2024-03-12T07:16:44.053Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-12T07:16:44.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0016d1f4d7ad318ca9cd7"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "datptiktok5@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "43bdf62d8da2ff987a833686932df64cc6e4c38bcd4b9eb445d85c8811917d68",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1710228208745",
+  "createdAt": {
+    "$date": "2024-03-12T07:17:01.962Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-12T07:18:28.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f70dbe44f4c54b02ad99c6"
+  },
+  "firstName": "Tiktok4",
+  "lastName": "D",
+  "email": "datptiktok4@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIfo9Y196QC21GnrGG6enK5T3R41PEqBDAy2SFIQ-2jzdcryg=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-03-17T15:35:26.458Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-05T13:46:57.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663caafca84cda5a484ffe53"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "damthien00@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "aa319b91322f331a43aea9593dc98d5c59d7605af4615365841419229d60f49d",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1715260630520",
+  "createdAt": {
+    "$date": "2024-05-09T10:52:44.367Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-09T13:12:10.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663cacb4a84cda5a484ffec9"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "damthien.work@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "c6e502dd380fc2d52ca02fea028b586c2133a3be5a5d25998b5903f60413186d",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1715252774757",
+  "createdAt": {
+    "$date": "2024-05-09T11:00:04.644Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-09T11:01:14.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666302c359e0ac56f6c7c99e"
+  },
+  "firstName": "Nam",
+  "lastName": "Phan",
+  "email": "kxrlt6160@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIzPx5BI7e6C98CT1q0tDrazqEsjS-yVjQmYq89h3CEhIO7pHsZ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-06-07T12:53:23.978Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T12:53:23.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666d155f9cc99c4d5afb0ddb"
+  },
+  "firstName": "Hùngg",
+  "lastName": "Sinh",
+  "email": "wtfduy961004@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKOrlUNqqhYPRpEHbyEiZvhsor_R_GEe9xM-s_EJkKn49ywF60=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-06-15T04:15:27.548Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-15T04:16:01.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b71056fd46c823b1b355a4"
+  },
+  "firstName": "phong",
+  "lastName": "phongphong",
+  "email": "dinhkienphong102@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLWRVGE2hnFR1jN4CMNx4VWjKg-OaHNK-E024ZWkJT9DWphCQ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-08-10T07:01:42.982Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-10T07:01:42.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c8652fe64fd1f6c8dae066"
+  },
+  "firstName": "Hoang",
+  "lastName": "Phi",
+  "email": "phihoang1232003@gmail.com",
+  "followings": [
+    "64611f4510487bbfc0707e7b"
+  ],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKvrBnwTXM8T6aIiBZVLdnCrOleeSLUEUid7IK5rJucymhO2w=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-08-23T10:32:15.713Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-23T10:37:24.672Z"
+  },
+  "__v": 0,
+  "address": "Phường Quang Trung, Thành phố Hà Giang, Tỉnh Hà Giang",
+  "mobile": "09843854"
+},
+{
+  "_id": {
+    "$oid": "66cb174d4e1b37c46792b766"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abcxyz@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "8b54b0a9655d30d055167f51945d1a1963cbe0b2e1b7791cff356b752d823b14",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586105094",
+  "createdAt": {
+    "$date": "2024-08-25T11:36:45.097Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:36:45.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17504e1b37c46792b76b"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abcxyz123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "3574998ef4f62b0d3c5d14c5f86d4df53fcd5e57376fa006a73ae5c56ebbae31",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586108440",
+  "createdAt": {
+    "$date": "2024-08-25T11:36:48.441Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:36:48.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17544e1b37c46792b770"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abcxyz123123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "571b90412aed02ef43c6096f3a62af47477e1f546bff4b112a782cbad03b8b52",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586112110",
+  "createdAt": {
+    "$date": "2024-08-25T11:36:52.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:36:52.111Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17554e1b37c46792b775"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abcxyz123123123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "0b52e2963609e57914c0de7ab698054628dfdd06c8339637e5b9041eb7e0ac07",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586113471",
+  "createdAt": {
+    "$date": "2024-08-25T11:36:53.472Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:36:53.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17574e1b37c46792b77a"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "abcxyz123123123123@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "532adf8bcad2f8e5b6d2efb52ae5444fdfc3a0154677fa4f12b336930ecf8530",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586115606",
+  "createdAt": {
+    "$date": "2024-08-25T11:36:55.607Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:36:55.607Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17604e1b37c46792b77f"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "dadajdyuwdyuiwaD@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "41a8ddc5c561a51957f3c4de4155e415237b06342a4cc4775cb2bbbc74d2c397",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586124262",
+  "createdAt": {
+    "$date": "2024-08-25T11:37:04.263Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:37:04.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17694e1b37c46792b784"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "dadajdyuwdyuiwasdgasdggdqweyuqwyuieasudasasgduhasgasgyudwagyudyatdqwyueqweyuqaD@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "eff9bef9813a4e7dafd377ad25927d5e8efc0ef152c0bede722a861127e39387",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586133769",
+  "createdAt": {
+    "$date": "2024-08-25T11:37:13.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:37:13.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17764e1b37c46792b790"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "sxcfdfgdfjvbghsdfhshrgfdn kvjidghdfjkvnjk@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "da34a12f567f2e6d7568ddadcc7fd08a8246f9b1ebe0f385245fc054f41a453f",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586146165",
+  "createdAt": {
+    "$date": "2024-08-25T11:37:26.166Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:37:26.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb17804e1b37c46792b795"
+  },
+  "firstName": "",
+  "lastName": "",
+  "email": "sxcfdfgdfjvbghsdfhshrgfdnashdfhasjkfhujkwruiywuiofnjkrdfgjkdfguieryuigerdhgdfjkgrdhjkfweirgi3wrwfsdkvjidghdfjkvnjk@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "confirm": false,
+  "verificationEmailToken": "67f30fbd47bedc6f25e2cb321805210b010cd0d83af72fe4baa8b81b60d5212f",
+  "totalProduct": 0,
+  "passwordTokenExpires": "1724586156667",
+  "createdAt": {
+    "$date": "2024-08-25T11:37:36.668Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:37:36.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb180d4e1b37c46792b7db"
+  },
+  "firstName": "Meta",
+  "lastName": "Nghia",
+  "email": "nghiametadev@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocI6L8PaKsAabgZY8Y7BHD204ZI5yBCa_Tp05hLanFM9gnt-RQ=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-08-25T11:39:57.613Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-25T11:42:22.373Z"
+  },
+  "__v": 0,
+  "address": "Xã Dương Quang, Huyện Gia Lâm, Thành phố Hà Nội",
+  "mobile": "123456789"
+},
+{
+  "_id": {
+    "$oid": "66cbeef80ea33d3ee10a6f86"
+  },
+  "firstName": "Thông",
+  "lastName": "Tôn",
+  "email": "thongton2310.eht.edu@gmail.com",
+  "followings": [],
+  "followers": [],
+  "cart": [],
+  "isAdmin": false,
+  "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJEWkWVRRK5UwwStzGPI2tNQ-AhP8NsW2Qpfa67_8onuJVsRw=s96-c",
+  "confirm": false,
+  "totalProduct": 0,
+  "createdAt": {
+    "$date": "2024-08-26T02:56:56.143Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-26T02:59:14.629Z"
+  },
+  "__v": 0,
+  "mobile": "0774565578",
+  "address": "Phường Ngọc Hà, Thành phố Hà Giang, Tỉnh Hà Giang"
+}]

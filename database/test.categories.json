@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b0"
+  },
+  "category": "Đồ Uống Không Cồn",
+  "category_code": "JDUDUJ",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922472/dpshopvn/uxdlzlc4crpihlu4gpul.webp",
+  "category_slug": "DJo-Uong-Khong-Con",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b1"
+  },
+  "category": "Gia Vị và Chế Biến",
+  "category_code": "GAAIAG",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922475/dpshopvn/y7y7xipxeba5q7rbzotr.webp",
+  "category_slug": "Gia-Vi-va-Che-Bien",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b2"
+  },
+  "category": "Chăm sóc thú cưng",
+  "category_code": "CAASAC",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922476/dpshopvn/j117aojxke4w1ktuvbuq.webp",
+  "category_slug": "Cham-soc-thu-cung",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b3"
+  },
+  "category": "Bộ quà tặng",
+  "category_code": "OBOAUQ",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922478/dpshopvn/zrkydyg1jiybqcpqmklb.jpg",
+  "category_slug": "Bo-qua-tang",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b4"
+  },
+  "category": "Đồ uống - Pha chế dạng bột",
+  "category_code": "JDJJUD",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922480/dpshopvn/kx1gcjowfzvosghe7j7d.webp",
+  "category_slug": "DJo-uong-Pha-che-dang-bot",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b5"
+  },
+  "category": "Sữa và các Sản phẩm từ sữa",
+  "category_code": "SASSAA",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922482/dpshopvn/ygs8xy6ndu5vav96mlh4.webp",
+  "category_slug": "Sua-va-cac-San-pham-tu-sua",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b6"
+  },
+  "category": "Đồ uống có cồn",
+  "category_code": "DDDODN",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922484/dpshopvn/bsandwrbepnw2c3yfw4m.webp",
+  "category_slug": "DJo-uong-co-con",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157b7"
+  },
+  "category": "Đậu Hạt Các Loại",
+  "category_code": "DAAHAD",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922485/dpshopvn/s87cpsktpjsfvmooqsed.webp",
+  "category_slug": "DJau-Hat-Cac-Loai",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157ae"
+  },
+  "category": "Đồ Ăn Vặt",
+  "category_code": "DODAOJ",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922469/dpshopvn/fyvxzhwjp0wazj6knz5u.webp",
+  "category_slug": "DJo-An-Vat",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.960Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c5b92aa7c4ed8718157af"
+  },
+  "category": "Thực phẩm Đóng hộp và Khô",
+  "category_code": "HTHHCT",
+  "category_image": "http://res.cloudinary.com/dmcewmxyx/image/upload/v1684922470/dpshopvn/lazc8j859graaeamu7ks.webp",
+  "category_slug": "Thuc-pham-DJong-hop-va-Kho",
+  "createdAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T12:54:42.961Z"
+  },
+  "__v": 0
+}]

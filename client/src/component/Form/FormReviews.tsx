@@ -1,4 +1,4 @@
-import React, { SetStateAction, useEffect , useState } from 'react';
+import React, { SetStateAction, useEffect, useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import StarRateIcon from '@mui/icons-material/StarRate';
@@ -10,7 +10,7 @@ import { ButtonOutline, Overlay, showNotification } from '..';
 import { setIsLoading, setOpenFeatureAuth } from '../../redux/features/action/actionSlice';
 import { apiUploadImage } from '../../services/apiUploadPicture';
 import { INotification, ProductDetail, Review } from '../../interfaces/interfaces';
-import { RATING_REVIEW } from '../../utils/const';
+import { RATING_REVIEW, useAppTranslation } from '../../utils/const';
 import { formatUserName } from '../../utils/formatUserName';
 import { useLocation } from 'react-router-dom';
 import { Socket } from 'socket.io-client';
@@ -47,15 +47,15 @@ const FormReviews: React.FC<FormReviewsProps> = ({
     setRatings,
     socketRef,
 }) => {
+    const [valueInput, setValueInput] = useState<string>(reviewEdit?.comment || '');
+    const [imagesUrl, setImagesUrl] = useState<string[]>(reviewEdit?.images || []);
+    const [rating, setRating] = useState<number>(reviewEdit?.rating || 0);
     const [isLoad, setIsLoad] = useState<boolean>(false);
-    const [valueInput, setValueInput] = useState<string>('');
-    const [imagesUrl, setImagesUrl] = useState<Array<string>>([]);
-    const [rating, setRating] = useState<number>(5);
-    const dispatch = useAppDispatch();
-    const currentUser = useAppSelector((state) => state.user);
     const { isLoginSuccess } = useAppSelector((state) => state.auth);
+    const currentUser = useAppSelector((state) => state.user);
     const location = useLocation();
-    // ----------- handel upload image -----------
+    const dispatch = useAppDispatch();
+    const { t } = useAppTranslation();
 
     useEffect(() => {
         if (isEdit && reviewEdit) {
@@ -90,7 +90,6 @@ const FormReviews: React.FC<FormReviewsProps> = ({
         dispatch(setIsLoading(false));
     };
 
-    //  ------- post-------------
     const postComment = async () => {
         dispatch(setIsLoading(true));
         const res = await apiPostComment({ comment: valueInput, images: imagesUrl, rating: rating }, productDetail._id);
@@ -118,7 +117,6 @@ const FormReviews: React.FC<FormReviewsProps> = ({
         dispatch(setIsLoading(false));
     };
 
-    //  ------- edit comment-------------
     const editComment = async () => {
         //dispatch(setIsLoading(true));
         const res = await apiEditComment({ comment: valueInput, images: imagesUrl, rating: rating }, reviewEdit?._id);
@@ -133,7 +131,7 @@ const FormReviews: React.FC<FormReviewsProps> = ({
         showNotification('Cập nhật thành công!', true);
         dispatch(setIsLoading(false));
     };
-    // ------- summit -----------
+
     const handleSummit = async (e: { stopPropagation: () => void }) => {
         e.stopPropagation();
         if (!isLoginSuccess) {
@@ -189,6 +187,7 @@ const FormReviews: React.FC<FormReviewsProps> = ({
                 <ul className="flex gap-2 justify-center">
                     {RATING_REVIEW?.map((s) => (
                         <div
+                            key={s.start}
                             className="flex flex-col justify-center items-center gap-1 text-[rgb(243,153,74)] cursor-pointer"
                             onClick={() => {
                                 if (productDetail.userBought.includes(currentUser?._id)) {
@@ -204,7 +203,7 @@ const FormReviews: React.FC<FormReviewsProps> = ({
                                 <StarOutlineIcon style={{ fontSize: '40px', color: '#rgb(243,153,74)' }} />
                             )}
                             <span className={`text-xs ${s.start === rating ? 'font-bold' : 'font-medium'} `}>
-                                {s.text}
+                                {t(s.text_key)}
                             </span>
                         </div>
                     ))}

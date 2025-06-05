@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import ReactLoading from 'react-loading';
+import { useTranslation } from 'react-i18next';
 import { InputForm } from '../..';
 import { Conversation } from '../../../interfaces/interfaces';
 import { useAppDispatch, useAppSelector } from '../../../redux/hooks';
@@ -24,6 +25,7 @@ const ChatLeft: React.FC<ChatLeft> = ({
     isOpenBoxChat,
     isLoading,
 }) => {
+    const { t } = useTranslation();
     const [value, setValue] = useState<string>('');
     const [conversationsNew, setConversationsNew] = useState<Conversation[]>([]);
     const dispatch = useAppDispatch();
@@ -50,7 +52,7 @@ const ChatLeft: React.FC<ChatLeft> = ({
                 <InputForm
                     name_id="search"
                     value={value}
-                    placeholder="Tìm kiếm"
+                    placeholder={t('chat.search')}
                     handleOnchange={(e) => setValue(e.target.value)}
                 />
             </div>
@@ -77,12 +79,12 @@ const ChatLeft: React.FC<ChatLeft> = ({
                         ))}
                     </div>
                 ) : (
-                    <NotExit label="Không có tin nhắn nào" />
+                    <NotExit label={t('chat.noMessages')} />
                 )
             ) : (
                 <div className="w-full flex justify-center h-full items-center">
-                <ReactLoading type="cylon" color="rgb(0, 136, 72)" />
-            </div>
+                    <ReactLoading type="cylon" color="rgb(0, 136, 72)" />
+                </div>
             )}
         </div>
     );

@@ -3,10 +3,12 @@ import { fire_icon } from '../../assets';
 import { IProductItem } from '../../interfaces/interfaces';
 import { formatMoney } from '../../utils/formatMoney';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 // eslint-disable-next-line react-refresh/only-export-components
 const CardShockDiscount: React.FC<{ product: IProductItem }> = ({ product }) => {
     const { discount, image_url, slug, _id, new_price } = product;
+    const { t } = useTranslation();
     return (
         <Link
             to={`${slug}/${_id}`}
@@ -20,7 +22,7 @@ const CardShockDiscount: React.FC<{ product: IProductItem }> = ({ product }) => 
                 <span className=" border-[1px] border-solid border-red_custom rounded-sm  px-1 text-xs">{`-${discount}%`}</span>
             </div>
             <button className="relative flex text-sm mb-2 py-1 text-white bg-red_custom opacity-90 rounded-2xl justify-center items-center hover:opacity-80">
-                Mua ngay kẻo hết
+                {t('home.buyNow')}
                 <img className="absolute bottom-3 left-0 w-[30px]" src={fire_icon} />
             </button>
         </Link>

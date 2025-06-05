@@ -12,6 +12,7 @@ import TableProducts from './TableProducts';
 import CreateProduct from './CreateProduct';
 import FilterProduct from './FilterProduct';
 import { path } from '../../../../utils/const';
+import { useTranslation } from 'react-i18next';
 
 interface IQueries {
     createdAt: string;
@@ -25,6 +26,7 @@ const ProductManage: React.FC = () => {
     const [queries, setQueries] = useState<IQueries>({} as IQueries);
     const dispatch = useAppDispatch();
     const valueDebounce = useDebounce(queries.title, 500);
+    const { t } = useTranslation();
 
     useEffect(() => {
         const fetchApi = async () => {
@@ -52,11 +54,13 @@ const ProductManage: React.FC = () => {
     }, [currentPage]);
     return (
         <div className="fixed-mobile w-full h-full bg-white  tablet:overflow-y-scroll px-4 pb-6">
-              <Link to={`${path.PAGE_USER}`} className=" absolute top-2 left-4 text-secondary laptop:hidden ">
+            <Link to={`${path.PAGE_USER}`} className=" absolute top-2 left-4 text-secondary laptop:hidden ">
                 <ChevronLeftIcon fontSize="large" />
             </Link>
-            <h1 className=" tablet:my-3 tablet:text-center  text-1xl text-primary laptop:m-5 ">Quản lý sản phẩm</h1>
-            <CreateProduct  setProducts={setProducts}/>
+            <h1 className=" tablet:my-3 tablet:text-center  text-1xl text-primary laptop:m-5 ">
+                {t('product.manageProduct')}
+            </h1>
+            <CreateProduct setProducts={setProducts} />
             <FilterProduct queries={queries} setQueries={setQueries} />
             <TableProducts products={products} setProducts={setProducts} />
             {totalPage > 0 && (

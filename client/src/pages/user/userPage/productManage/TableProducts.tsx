@@ -7,10 +7,11 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { formatMoney } from '../../../../utils/formatMoney';
-import {   ProductDetail } from '../../../../interfaces/interfaces';
+import { ProductDetail } from '../../../../interfaces/interfaces';
 import NotExit from '../../../../component/common/NotExit';
 import { apiDeleteProduct } from '../../../../services/apiProduct';
 import { FormProduct, showNotification } from '../../../../component';
+import { useTranslation } from 'react-i18next';
 
 interface ITableProducts {
     products: ProductDetail[];
@@ -19,6 +20,7 @@ interface ITableProducts {
 const TableProducts: React.FC<ITableProducts> = ({ products, setProducts }) => {
     const [openForm, setOpenForm] = useState<boolean>(false);
     const [productEdit, setProductEdit] = useState<ProductDetail>();
+    const { t } = useTranslation();
 
     const handleDeleteProduct = async (pid: string) => {
         if (confirm('Bạn có muốn xóa sản phẩm không?')) {
@@ -39,21 +41,21 @@ const TableProducts: React.FC<ITableProducts> = ({ products, setProducts }) => {
                         <TableHead>
                             <TableRow>
                                 <TableCell align="center">ID</TableCell>
-                                <TableCell align="center">Tên sản phẩm</TableCell>
+                                <TableCell align="center">{t('product.productName')}</TableCell>
                                 <TableCell align="center" sx={{ width: '100px' }}>
-                                    Số lượng
+                                    {t('product.quantity')}
                                 </TableCell>
                                 <TableCell align="center" sx={{ width: '100px' }}>
-                                    Đơn giá
+                                    {t('product.price')}
                                 </TableCell>
                                 <TableCell align="center" sx={{ width: '100px' }}>
-                                    Giảm giá
+                                    {t('product.discount')}
                                 </TableCell>
                                 <TableCell align="center" sx={{ width: '100px' }}>
-                                    Danh mục
+                                    {t('product.category')}
                                 </TableCell>
-                                <TableCell align="center">Nhãn hàng</TableCell>
-                                <TableCell align="center">Thao tác</TableCell>
+                                <TableCell align="center">{t('product.brand')}</TableCell>
+                                <TableCell align="center">{t('product.action')}</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
@@ -111,7 +113,7 @@ const TableProducts: React.FC<ITableProducts> = ({ products, setProducts }) => {
                         </TableBody>
                     </Table>
                 </TableContainer>
-                {products?.length == 0 && <NotExit label="Không có sản phẩm nào" />}
+                {products?.length == 0 && <NotExit label={t('product.noProduct')} />}
             </div>
             {openForm && <FormProduct setIsOpen={setOpenForm} setProducts={setProducts} productEdit={productEdit} />}
         </>

@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { BrowserRouter } from 'react-router-dom';
+import { Suspense } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,6 +10,7 @@ import { useEffect, useRef } from 'react';
 import { setMobileUi, setSocketRef } from './redux/features/action/actionSlice';
 import { useAppDispatch } from './redux/hooks';
 import { Socket, io } from 'socket.io-client';
+import ReactLoading from 'react-loading';
 
 function App() {
     const dispatch = useAppDispatch();
@@ -36,12 +38,22 @@ function App() {
             }
         };
     }, []);
+
+    // Loading component khi i18n đang tải
+    const loadingComponent = (
+        <div className="w-full h-screen flex justify-center items-center">
+            <ReactLoading type="cylon" color="rgb(0, 136, 72)" />
+        </div>
+    );
+
     return (
-        <BrowserRouter>
-            <DefaultLayout>
-                <RouterPage />
-            </DefaultLayout>
-        </BrowserRouter>
+        <Suspense fallback={loadingComponent}>
+            <BrowserRouter>
+                <DefaultLayout>
+                    <RouterPage />
+                </DefaultLayout>
+            </BrowserRouter>
+        </Suspense>
     );
 }
 

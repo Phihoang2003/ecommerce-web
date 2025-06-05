@@ -3,13 +3,14 @@ import slugify from 'slugify';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import CloseIcon from '@mui/icons-material/Close';
 import { apiCreateProduct, apiGetAllBrandByCategory, apiUpdateProduct } from '../../services/apiProduct';
-import {   ProductDetail } from '../../interfaces/interfaces';
+import { ProductDetail } from '../../interfaces/interfaces';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import { InputEditor, InputForm, Overlay, SelectOptions, showNotification } from '..';
 import ButtonOutline from '../buttonOutline';
 import { apiUploadImage } from '../../services/apiUploadPicture';
 import { setIsLoading } from '../../redux/features/action/actionSlice';
 import validate from '../../utils/valueDate';
+import { useTranslation } from 'react-i18next';
 interface IFormProduct {
     setProducts: React.Dispatch<React.SetStateAction<ProductDetail[]>>;
     setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -23,6 +24,7 @@ const FormProduct: React.FC<IFormProduct> = ({ setIsOpen, setProducts, productEd
     const [selectBrand, setSelectBrand] = useState<string>('');
     const { categories } = useAppSelector((state) => state.category);
     const [imagesUrl, setImagesUrl] = useState<Array<string>>([]);
+    const { t } = useTranslation();
     const [invalidFields, setInvalidFields] = useState<
         Array<{
             name: string;
@@ -121,7 +123,7 @@ const FormProduct: React.FC<IFormProduct> = ({ setIsOpen, setProducts, productEd
                         <InputForm
                             col={true}
                             handleOnchange={(e) => handleInputField(e, 'title')}
-                            label="Tên sản phẩm"
+                            label={t('product.productName')}
                             name_id="title"
                             value={inputFields.title}
                             invalidFields={invalidFields}

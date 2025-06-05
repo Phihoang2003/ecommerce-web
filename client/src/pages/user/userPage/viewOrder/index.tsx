@@ -4,7 +4,7 @@ import { getDetailOrder } from '../../../../services/apiOrder';
 import { IOrderItem } from '../../../../interfaces/interfaces';
 import moment from 'moment';
 import { formatMoney } from '../../../../utils/formatMoney';
-import { PAYMENT_METHOD, path } from '../../../../utils/const';
+import { PAYMENT_METHOD, path, useAppTranslation } from '../../../../utils/const';
 import { OrderItem, ProductInCartItem, SkeletonViewOrder } from '../../../../component';
 import { statusOrder } from '../../../../utils/statusOrder';
 import { Skeleton } from '@mui/material';
@@ -12,6 +12,7 @@ import { Skeleton } from '@mui/material';
 const ViewOrder: React.FC = () => {
     const param = useParams();
     const [detailOrder, setDetailOrder] = useState<IOrderItem>();
+    const { t } = useAppTranslation();
 
     useEffect(() => {
         const fetchApiDetailOrder = async () => {
@@ -20,6 +21,13 @@ const ViewOrder: React.FC = () => {
         };
         fetchApiDetailOrder();
     }, [param.oid]);
+
+    // Lấy key dịch cho phương thức thanh toán
+    const getPaymentMethodKey = () => {
+        const method = PAYMENT_METHOD?.method?.find((e) => e.code === detailOrder?.paymentMethod);
+        return method?.label_key || '';
+    };
+
     return (
         <>
             {detailOrder ? (
@@ -70,9 +78,7 @@ const ViewOrder: React.FC = () => {
                         <div className="flex flex-col gap-2">
                             <h2 className="text-sm uppercase text-secondary">Hình thức thanh toán</h2>
                             <div className=" p-2 rounded-md bg-white min-h-[100px]">
-                                <p className="text-sm text-secondary">
-                                    {PAYMENT_METHOD?.method?.find((e) => e.code === detailOrder?.paymentMethod)?.label}
-                                </p>
+                                <p className="text-sm text-secondary">{t(getPaymentMethodKey())}</p>
                             </div>
                         </div>
                     </div>
@@ -86,7 +92,7 @@ const ViewOrder: React.FC = () => {
                     </div>
                 </div>
             ) : (
-                 <SkeletonViewOrder/>
+                <SkeletonViewOrder />
             )}
         </>
     );

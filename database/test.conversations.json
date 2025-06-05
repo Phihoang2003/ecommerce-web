@@ -1,0 +1,448 @@
+[{
+  "_id": {
+    "$oid": "64da3c7ac4a7c20140624074"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "6461e3908d5ce7e7c19bfcd4"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64da3c7ac4a7c20140624075"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64da3c7ac4a7c20140624076"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-14T14:38:50.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-11T13:31:26.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64dd68839deb79670e2e9e1b"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f4510487bbfc0707e7b"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "64dd68839deb79670e2e9e1c"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6461e3908d5ce7e7c19bfcd4"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64dd68839deb79670e2e9e1d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-17T00:23:31.932Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-11T13:31:32.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df2c8c9bf5043d69262030"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64df2c8c9bf5043d69262031"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6450d1fb1d1397a25959dc17"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64df2c8c9bf5043d69262032"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-18T08:32:12.150Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-16T14:03:41.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64df2d5748a81174641d0d86"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f4510487bbfc0707e7b"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "64df2d5748a81174641d0d87"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6450d1fb1d1397a25959dc17"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64df2d5748a81174641d0d88"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-18T08:35:35.390Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-10T15:10:09.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e09fe0636126c7e1f9b736"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f4510487bbfc0707e7b"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "64e09fe0636126c7e1f9b737"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64dedbb8abc044cb9ceffa28"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64e09fe0636126c7e1f9b738"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-19T10:56:32.425Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-09T01:20:13.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e807e229293309171ae29e"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f4510487bbfc0707e7b"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64e807e229293309171ae29f"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64e807de29293309171ae277"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64e807e229293309171ae2a0"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-25T01:46:10.888Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T01:46:10.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e88b27059fc0c961a25c6b"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64e88b27059fc0c961a25c6c"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64e7a02ee5efe31f54e94dbc"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "64e88b27059fc0c961a25c6d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-25T11:06:15.851Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-25T15:05:12.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef0365e5fbf5b068243393"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "6450d1fb1d1397a25959dc17"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "64ef0365e5fbf5b068243394"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64ef021de5fbf5b068243289"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "64ef0365e5fbf5b068243395"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T08:52:53.212Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-10T15:10:12.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65268b4504d14cdb15362626"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "65268b4504d14cdb15362627"
+      }
+    },
+    {
+      "user": {
+        "$oid": "650fb37c233865909ba0a8ef"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "65268b4504d14cdb15362628"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-11T11:47:17.642Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-25T15:04:48.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "654b82fc49f6749c4e64dbd3"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f4510487bbfc0707e7b"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "654b82fc49f6749c4e64dbd4"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64ef021de5fbf5b068243289"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "654b82fc49f6749c4e64dbd5"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-08T12:45:48.903Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-08T12:45:53.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65543cda77eb4d842206831c"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "65543cda77eb4d842206831d"
+      }
+    },
+    {
+      "user": {
+        "$oid": "65543b4077eb4d84220681d0"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "65543cda77eb4d842206831e"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-15T03:36:58.270Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-25T15:04:44.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65546a8f8e917a97777ed61a"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "6450d1fb1d1397a25959dc17"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "65546a8f8e917a97777ed61b"
+      }
+    },
+    {
+      "user": {
+        "$oid": "64dedbb8abc044cb9ceffa28"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "65546a8f8e917a97777ed61c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-15T06:51:59.605Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T14:17:18.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657953bdb54e485b9e4a00a5"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "64611f6f10487bbfc0707e82"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "657953bdb54e485b9e4a00a6"
+      }
+    },
+    {
+      "user": {
+        "$oid": "657882dd638b6b024fa26841"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "657953bdb54e485b9e4a00a7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-12-13T06:48:29.145Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-06T13:40:36.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c865a7e64fd1f6c8dae14c"
+  },
+  "members": [
+    {
+      "user": {
+        "$oid": "6450d1fb1d1397a25959dc17"
+      },
+      "isWatched": true,
+      "_id": {
+        "$oid": "66c865a7e64fd1f6c8dae14d"
+      }
+    },
+    {
+      "user": {
+        "$oid": "66c8652fe64fd1f6c8dae066"
+      },
+      "isWatched": false,
+      "_id": {
+        "$oid": "66c865a7e64fd1f6c8dae14e"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-23T10:34:15.940Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T14:25:05.256Z"
+  },
+  "__v": 0
+}]
