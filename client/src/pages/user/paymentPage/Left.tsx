@@ -3,12 +3,13 @@ import BackpackIcon from '@mui/icons-material/Backpack';
 import { ProductInCartItem } from '../../../component';
 import { useAppSelector } from '../../../redux/hooks';
 import moment from 'moment';
-<<<<<<< HEAD
+
 import { DELIVERY_METHOD, PAYMENT_METHOD, useAppTranslation } from '../../../utils/const';
 import PayPal from '../paypalPage';
-=======
-import { DELIVERY_METHOD, PAYMENT_METHOD } from '../../../utils/const'; 
->>>>>>> 2b0459b42786da3eee100c7a081e97bd0de28e23
+
+
+
+
 
 interface LeftProps {
     methods: {

@@ -70,7 +70,6 @@ const SellManage: React.FC = () => {
                 dispatch(setLoadDataOrderSold());
             }
         };
-
         fetchApi();
     }, []);
     useEffect(() => {
