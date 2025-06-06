@@ -1,7 +1,5 @@
 # DPSHOPVN - E-commerce Platform 🛒
 
-![image](https://github.com/user-attachments/assets/d880437c-faa0-4ca4-9918-f21f228092fb)
-
 ## 📋 Mô tả dự án
 
 DPSHOPVN là một nền tảng thương mại điện tử toàn diện được xây dựng với kiến trúc full-stack hiện đại. Hệ thống cung cấp đầy đủ các tính năng cần thiết cho một cửa hàng trực tuyến chuyên nghiệp.
@@ -20,6 +18,8 @@ DPSHOPVN là một nền tảng thương mại điện tử toàn diện đượ
 - 📊 **Dashboard Admin**: Quản lý toàn diện cho admin
 
 ## 🖼️ Screenshots
+
+![image](https://github.com/user-attachments/assets/d880437c-faa0-4ca4-9918-f21f228092fb)
 
 ![image](https://github.com/user-attachments/assets/d75401cf-516d-419f-9d04-8a5e76ebe311)
 
@@ -243,9 +243,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Liên hệ
 
-- Email: your-email@example.com
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- Email: hoangphi1232003@gmail.com
+- GitHub: [Phihoang2003](https://github.com/Phihoang2003)
 
 ## 🙏 Acknowledgments
 
