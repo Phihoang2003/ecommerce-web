@@ -132,7 +132,7 @@ Tạo file `.env` trong thư mục `server/`:
 
 ```env
 # Database
-MONGODB_URI=mongodb://localhost:27017/dpshopvn
+MONGODB_URI=your_url
 REDIS_URL=redis://localhost:6379
 
 # JWT Secrets
